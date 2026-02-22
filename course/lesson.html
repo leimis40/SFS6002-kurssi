@@ -75,6 +75,11 @@
 
       const nextBtn = document.getElementById("nextBtn");
       const prevBtn = document.getElementById("prevBtn");
+      
+      // Lukitse nappi aluksi
+nextBtn.setAttribute("aria-disabled", "true");
+nextBtn.style.pointerEvents = "none";
+nextBtn.style.opacity = "0.5";
 
       // Prev link: allow always within bounds
       if (step > 1) prevBtn.href = lessonUrl(step - 1, token);
