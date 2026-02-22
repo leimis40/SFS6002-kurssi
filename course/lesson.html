@@ -104,9 +104,11 @@
       } else {
         nextBtn.href = "#";
         nextBtn.addEventListener("click", (e) => {
-          e.preventDefault();
-          alert("Seuraava avautuu, kun audio on kuunneltu loppuun.");
-        });
+  if (nextBtn.getAttribute("aria-disabled") === "true") {
+    e.preventDefault();
+    alert("Seuraava avautuu, kun audio on kuunneltu loppuun.");
+  }
+});
       }
 
       audio.addEventListener("ended", () => {
