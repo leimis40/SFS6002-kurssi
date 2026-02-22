@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SFS6002-kurssi</title>
+</head>
+<body>
+<script>
+  const params = window.location.search || "";
+  // Ohjaa aina course/ ja säilyttää ?token=...
+  window.location.replace("course/" + params);
+</script>
+<noscript>
+  <p>Avaa kurssi tästä: <a id="link" href="course/">Kurssi</a></p>
+</noscript>
+</body>
+</html>
