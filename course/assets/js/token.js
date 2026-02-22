@@ -2,7 +2,7 @@
 function getToken() {
   const params = new URLSearchParams(window.location.search);
   const token = params.get("token");
-  return token && token.trim().length >= 6 ? token.trim() : null;
+  return token && token.trim().length >= 12 ? token.trim() : null;
 }
 
 function requireTokenOrBlock() {
