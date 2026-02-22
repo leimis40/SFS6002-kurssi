@@ -84,14 +84,19 @@
       const isLast = step === total;
       const nextHref = isLast ? doneUrl(token) : lessonUrl(step + 1, token);
 
-      function unlockNext() {
-        nextBtn.textContent = isLast ? "Valmis – siirry päätökseen" : "Seuraava";
-        nextBtn.href = nextHref;
-        nextBtn.removeAttribute("aria-disabled");
-        // Mark completed
-        markLessonComplete(token, step);
-        document.getElementById("progressText").textContent = `Eteneminen tässä selaimessa: ${getProgress(token)}/${total} valmista.`;
-      }
+    function unlockNext() {
+  nextBtn.textContent = isLast ? "Valmis – siirry päätökseen" : "Seuraava";
+  nextBtn.href = nextHref;
+  nextBtn.classList.remove("locked");
+  nextBtn.removeAttribute("aria-disabled");
+  nextBtn.style.pointerEvents = "auto";
+  nextBtn.style.opacity = "1";
+
+  markLessonComplete(token, step);
+
+  document.getElementById("progressText").textContent =
+    `Eteneminen tässä selaimessa: ${getProgress(token)}/${total} valmista.`;
+}
 
       // If already completed this step earlier, unlock immediately
       if (progress >= step) {
