@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kurssi – aloitus</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main class="container" id="app" style="display:none;">
+    <header class="header">
+      <p class="kicker">Koulutus</p>
+      <h1 id="courseTitle"></h1>
+      <p class="small">Tämä koulutus on henkilökohtaisella linkillä. Pidä linkki tallessa.</p>
+    </header>
+
+    <section class="card">
+      <p><span class="badge" id="progressBadge"></span></p>
+      <p>Kun aloitat, eteneminen tallentuu tähän selaimeen tokenin perusteella.</p>
+      <div class="nav">
+        <a class="btn" id="startBtn" href="#">Aloita / Jatka</a>
+        <button class="secondary" id="resetBtn" type="button">Nollaa eteneminen (tämä selain)</button>
+      </div>
+      <p class="small">Huom: selaimen välimuistin tyhjennys poistaa etenemistiedon.</p>
+    </section>
+
+    <section class="card">
+      <h2>Ohje</h2>
+      <ul class="list">
+        <li>Jokaisella sivulla on audio. <strong>Seuraava</strong> avautuu kun audio on loppunut.</li>
+        <li>Jos selaimesi ei toista automaattisesti, paina Play.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/token.js"></script>
+  <script src="assets/js/course.js"></script>
+  <script>
+    const token = requireTokenOrBlock();
+    if (token) {
+      document.getElementById("app").style.display = "block";
+      document.getElementById("courseTitle").textContent = COURSE.name;
+
+      const progress = getProgress(token);
+      const total = COURSE.lessons.length;
+      document.getElementById("progressBadge").textContent = `Eteneminen: ${progress}/${total} valmista`;
+
+      const nextStep = Math.min(progress + 1, total);
+      document.getElementById("startBtn").href = lessonUrl(nextStep, token);
+
+      document.getElementById("resetBtn").addEventListener("click", () => {
+        if (confirm("Nollataanko eteneminen tässä selaimessa?")) {
+          localStorage.removeItem(tokenKey(token, "progress"));
+          location.reload();
+        }
+      });
+    }
+  </script>
+</body>
+</html>
