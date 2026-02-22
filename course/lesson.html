@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kurssi – osio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main class="container" id="app" style="display:none;">
+    <header class="header">
+      <p class="kicker">Koulutus • <span id="stepBadge" class="badge"></span></p>
+      <h1 id="lessonTitle"></h1>
+      <p class="small" id="courseName"></p>
+    </header>
+
+    <section class="card">
+      <h2>Audio</h2>
+      <p class="small">Kuuntele audio loppuun avataksesi seuraavan sivun.</p>
+      <audio id="audio" controls preload="metadata">
+        <source id="audioSrc" src="" type="audio/mpeg" />
+        Selaimesi ei tue audio-toistoa.
+      </audio>
+      <p class="small" id="audioHint"></p>
+    </section>
+
+    <section class="card">
+      <h2>Sisältö</h2>
+      <div id="content"></div>
+      <hr />
+      <p class="small">
+        Vinkki: lisää tähän myös kuvia/kaavioita omasta materiaalistasi (assets/…).
+      </p>
+    </section>
+
+    <section class="card">
+      <div class="nav">
+        <a class="btn secondary" id="prevBtn" href="#">Edellinen</a>
+        <a class="btn" id="nextBtn" href="#" aria-disabled="true">Seuraava (lukittu)</a>
+      </div>
+      <p class="small" id="progressText"></p>
+    </section>
+  </main>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/token.js"></script>
+  <script src="assets/js/course.js"></script>
+  <script>
+    const token = requireTokenOrBlock();
+    if (!token) { /* blocked */ }
+    else {
+      const params = new URLSearchParams(window.location.search);
+      const step = ensureWithinBounds(Number(params.get("step")));
+      const idx = step - 1;
+      const lesson = COURSE.lessons[idx];
+
+      document.getElementById("app").style.display = "block";
+      document.title = `${COURSE.name} – ${lesson.title}`;
+      document.getElementById("courseName").textContent = COURSE.name;
+      document.getElementById("stepBadge").textContent = `${step}/${COURSE.lessons.length}`;
+      document.getElementById("lessonTitle").textContent = lesson.title;
+
+      // Content
+      document.getElementById("content").innerHTML = lesson.contentHtml;
+
+      // Audio
+      const audio = document.getElementById("audio");
+      document.getElementById("audioSrc").src = lesson.audioSrc;
+      audio.load();
+
+      // Progress & gating
+      const progress = getProgress(token);
+      const total = COURSE.lessons.length;
+      document.getElementById("progressText").textContent = `Eteneminen tässä selaimessa: ${progress}/${total} valmista.`;
+
+      const nextBtn = document.getElementById("nextBtn");
+      const prevBtn = document.getElementById("prevBtn");
+
+      // Prev link: allow always within bounds
+      if (step > 1) prevBtn.href = lessonUrl(step - 1, token);
+      else prevBtn.href = `index.html?token=${encodeURIComponent(token)}`;
+
+      // Next link: locked until audio ended
+      const isLast = step === total;
+      const nextHref = isLast ? doneUrl(token) : lessonUrl(step + 1, token);
+
+      function unlockNext() {
+        nextBtn.textContent = isLast ? "Valmis – siirry päätökseen" : "Seuraava";
+        nextBtn.href = nextHref;
+        nextBtn.removeAttribute("aria-disabled");
+        // Mark completed
+        markLessonComplete(token, step);
+        document.getElementById("progressText").textContent = `Eteneminen tässä selaimessa: ${getProgress(token)}/${total} valmista.`;
+      }
+
+      // If already completed this step earlier, unlock immediately
+      if (progress >= step) {
+        unlockNext();
+      } else {
+        nextBtn.href = "#";
+        nextBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+          alert("Seuraava avautuu, kun audio on kuunneltu loppuun.");
+        });
+      }
+
+      audio.addEventListener("ended", () => {
+        unlockNext();
+      });
+
+      // Optional: show hint if user pauses early
+      audio.addEventListener("pause", () => {
+        if (!audio.ended && getProgress(token) < step) {
+          document.getElementById("audioHint").textContent = "Jatka toistoa avataksesi seuraavan sivun.";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
