@@ -3,7 +3,7 @@
 const COURSE = {
   name: "Sähkötyöturvallisuuskurssi (SFS 6002) – kurssipohja",
   // Tally linkki todistuslomakkeelle (vaihda kun valmis)
-  certificateFormUrl: "https://tally.so/r/XXXXX",
+  certificateFormUrl: "https://tally.so/r/PdAaZb",
   // Jos haluat palata pääsivustolle kurssin jälkeen
   returnToSiteUrl: "/",
   // 10 lessonia (muokkaa otsikot + sisällöt + audio-polut)
