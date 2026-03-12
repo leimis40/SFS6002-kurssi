@@ -107,6 +107,22 @@ Erillistä korttia ei tarvita. Todistuksella voi osoittaa sen, että kurssi on k
 
 <p>Yksin työskentelevä sähköalan ammattihenkilö vastaa työnaikaisesta sähköturvallisuuden valvonnasta ilman erillistä nimeämistä.</p>
 
+<p><strong>Sähkölaitteiston vastuuhenkilö (SLV)</strong> vastaa sähkölaitteiston turvallisesta käytöstä
+organisoimalla toimintaa ja määrittelemällä turvalliset menettelyt. Hän huolehtii myös siitä,
+että pääsy sähkölaitteistoihin on rajoitettu ja että turvallisuuteen liittyvät käytännöt
+sekä valvonta ovat asianmukaisesti järjestetty.</p>
+
+<p>SLV voidaan nimetä omasta organisaatiosta tai ulkopuolisesta organisaatiosta. Tehtävien
+jakaminen muille henkilöille on mahdollista, mutta vastuut ja tehtävät suositellaan
+määrittelemään kirjallisesti.</p>
+
+<p><strong>Sähkölaitteiston käyttöä valvova henkilö (KVH)</strong> vastaa hänelle määrätyn
+sähkölaitteiston osan käytön valvonnasta. KVH antaa tarvittaessa valtuutuksen
+työnaikaisen sähköturvallisuuden valvojalle (STV) työn aloittamista varten.</p>
+
+<p>KVH voi siirtää osan tehtävistään muille henkilöille, mutta vastuunjako tulee
+määritellä selkeästi.</p>
+
 <img src="assets/images/taulukkox1.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
 
