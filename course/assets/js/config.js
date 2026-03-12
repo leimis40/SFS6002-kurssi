@@ -407,7 +407,60 @@ noudatetaan ja että mahdollisiin vaaratilanteisiin reagoidaan välittömästi.<
       id: "06",
       title: "6. Jännitteettömäksi tekeminen ja varmistaminen",
       audioSrc: "assets/audio/06.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (toimenpiteet, varmistus).</p>`,
+      contentHtml: `
+
+      <p><strong>Työskentely jännitteettömänä</strong> on sähkötöiden turvallisin työmenetelmä. 
+Ennen työn aloittamista on varmistettava oikea työkohde, selvitettävä laitteiston rakenne, 
+arvioitava vaaratekijät ja tehtävä tarvittavat sähköturvallisuustoimenpiteet.</p>
+
+<p>Jännitteettömäksi tekeminen perustuu viiteen turvallisuussääntöön, jotka tehdään yleensä tässä järjestyksessä:</p>
+
+<div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; text-align:left; width:60px;">#</th>
+        <th style="padding:12px; text-align:left;">Viisi turvallisuussääntöä</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">1</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">Täydellinen erottaminen</td>
+      </tr>
+      <tr>
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">2</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">Jännitteen kytkemisen estäminen</td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">3</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">Jännitteettömyyden toteaminen</td>
+      </tr>
+      <tr>
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">4</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">Työmaadoittaminen</td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">5</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">Suojaus lähellä olevilta jännitteisiltä osilta</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Työn aloittamiseen tarvitaan käyttöä valvovan henkilön (KVH) valtuutus, ja työntekijöille 
+aloitusluvan antaa työnaikaisen sähköturvallisuuden valvoja (STV) vasta sen jälkeen, 
+kun turvallisuustoimenpiteet on tehty.</p>
+
+<p>Jännitteettömyys on aina todettava tarkoitukseen soveltuvalla jännitteenkoettimella. 
+Tarvittaessa laitteisto myös työmaadoitetaan, jotta se ei voi tulla vaarallisesti jännitteiseksi 
+uudelleen esimerkiksi virhetoiminnan, takasyötön tai muun syyn vuoksi.</p>
+
+<p>Kun työ on valmis, työkalut, suojausvälineet, maadoitukset, lukitukset ja varoituskilvet 
+poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisin jännitteiseksi.</p>
+      
+      
+      `,
     },
     {
       id: "07",
