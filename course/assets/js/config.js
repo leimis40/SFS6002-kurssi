@@ -248,6 +248,104 @@ tehdään turvallisesti koko työn ajan.</p>
 
 <div style="margin:24px 0;">
   <h3 style="margin:0 0 12px 0; font-size:20px; line-height:1.3;">
+    Taulukko Y.1 Suomessa noudatettavat jännitetyöalueen ulkorajan mitat
+  </h3>
+
+  <div style="overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid #d9d9d9; border-radius:10px;">
+    <table style="border-collapse:collapse; min-width:720px; width:100%; background:#fff; font-size:15px;">
+      
+      <thead>
+        <tr style="background:#f3f6fa;">
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left;">
+            Nimellisjännite U<sub>N</sub><br><span style="font-weight:normal;">kV</span>
+          </th>
+          
+          <th style="border:1px solid #d9d9d9; padding:12px;">
+            Jännitetyöalueen ulkorajan mitta D<sub>L1</sub><br>
+            <span style="font-weight:normal;">m</span>
+          </th>
+          
+          <th style="border:1px solid #d9d9d9; padding:12px;">
+            Jännitetyöalueen ulkorajan mitta ilmajohtolilla¹ D<sub>L2</sub><br>
+            <span style="font-weight:normal;">m</span>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">≤ 1</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">Ei kosketusta</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">0,5</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">3</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">0,22</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,5 (1,0)</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">6</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">0,25</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,5 (1,0)</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">10</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">0,35</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,5 (1,0)</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">20</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">0,40</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,5 (1,0)</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">30</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">0,56</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,5 (1,0)</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">45</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">0,63</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,5 (1,0)</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">110</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,0</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,5 (1,2)</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">220</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">1,6</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">2,0</td>
+        </tr>
+
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:10px;">400</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">2,5</td>
+          <td style="border:1px solid #d9d9d9; padding:10px;">3,5</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+  </div>
+
+  <p style="margin-top:10px; font-size:14px; color:#666;">
+    ¹ Ilmajohdoilla sulussa oleva arvo tarkoittaa etäisyyttä suoraan jännitteisen osan alapuolella.
+  </p>
+</div>
+
+<div style="margin:24px 0;">
+  <h3 style="margin:0 0 12px 0; font-size:20px; line-height:1.3;">
     Taulukko Z.1 Lähialueen ulkomitan D<sub>V</sub> arvot eri jännitteillä muilla kuin ilmajohtojilla
   </h3>
 
