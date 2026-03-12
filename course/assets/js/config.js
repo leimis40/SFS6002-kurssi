@@ -273,8 +273,7 @@ jotta työn turvallisuus voidaan varmistaa.</p>
   </p>
 </div>
 
-<img src="assets/images/taulukkox1.png" 
-         style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
+
 
       `,
     },
