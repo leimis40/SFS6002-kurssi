@@ -135,6 +135,144 @@ työnaikaisen sähköturvallisuuden valvojalta (STV).</p>
 tilanteesta sähkölaitteiston käyttöä valvovalle henkilölle (KVH),
 jotta työn turvallisuus voidaan varmistaa.</p>
 
+<div style="margin:24px 0;">
+  <h3 style="margin:0 0 12px 0; font-size:20px; line-height:1.3;">
+    Taulukko X.1 Työnaikaisen sähköturvallisuuden valvojan (STV) tehtävät
+  </h3>
+
+  <div style="overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid #d9d9d9; border-radius:10px;">
+    <table style="border-collapse:collapse; min-width:1200px; width:100%; background:#fff; font-size:15px; line-height:1.45;">
+      <thead>
+        <tr style="background:#f3f6fa;">
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left; min-width:180px;">Käyttöön liittyvät toimenpiteet (5)</th>
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left; min-width:180px;">Työskentely jännitteettömänä (6.2)</th>
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left; min-width:180px;">Jännitetyö (6.3)</th>
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left; min-width:180px;">Työskentely lähialueella (6.4) ja lähialueen ulkopuolella (6.5)</th>
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left; min-width:180px;">Kunnossapitokäytännöt (7)</th>
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left; min-width:180px;">Muut tehtävät (liite B)</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:12px; vertical-align:top; background:#fafafa;">
+            <p style="margin:0 0 8px 0;"><strong>Arvioidaan:</strong></p>
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>laitteiston kosketussuojaus ja sovitaan turvalliset työskentelyetäisyydet</li>
+              <li>mittalaitteiden soveltuvuus kohteeseen ja tarkastetaan niiden kunto</li>
+              <li>testausten turvallisuus jännitteisessä ja/tai jännitteettömässä kohteessa</li>
+              <li>tarkastusten turvallisuus jännitteettömässä ja jännitteisessä kohteessa</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Lisäksi:</strong></p>
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>arvioidaan henkilönsuojaimien ja muiden suojavälineiden tarpeellisuus</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Yhteydenpito ja ilmoitukset:</strong></p>
+            <ul style="margin:0 0 0 18px; padding:0;">
+              <li>sähkölaitteiston vastuuhenkilö (SLV) ja/tai käyttöä valvova henkilö (KVH)</li>
+            </ul>
+          </td>
+
+          <td style="border:1px solid #d9d9d9; padding:12px; vertical-align:top;">
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>tunnistetaan kohde ja sen rakenne</li>
+              <li>arvioidaan riskit ja tehdään tarvittavat turvallisuustoimet</li>
+              <li>erotetaan kohde kaikista syötöistä</li>
+              <li>lukitaan erotuskohta ja asetetaan kieltokilvet</li>
+              <li>todetaan jännitteettömyys kaikista navoista kaksinapaisella jännitteenkoettimella</li>
+              <li>tehdään tarvittaessa työmaadoittaminen</li>
+              <li>suojaudutaan lähellä olevilta jännitteisiltä osilta henkilönsuojaimilla, eristävillä matoilla ym.</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Työn aloituslupa:</strong></p>
+            <ul style="margin:0 0 0 18px; padding:0;">
+              <li>käyttöä valvova henkilö (KVH)</li>
+              <li>myös työnaikaisen sähköturvallisuuden valvoja (STV) tavanomaisissa tehtävissä</li>
+            </ul>
+          </td>
+
+          <td style="border:1px solid #d9d9d9; padding:12px; vertical-align:top; background:#fafafa;">
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>arvioidaan työ, ympäristö ja tarvittavat turvallisuustoimet (mm. henkilönsuojaimet)</li>
+              <li>käytetään työmenetelmäkohtaisia ohjeita</li>
+              <li>opastetaan työ jännitetyöpätevyydettömälle omaavalle henkilölle</li>
+              <li>valtuutetaan avustavat henkilöt</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Työskentelylupa:</strong></p>
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>työnantajalta tai hänen sijaiseltaan (sähköalan ammattihenkilöltä) ja/tai</li>
+              <li>sähkötöiden tai käytön johtajalta</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Työn aloituslupa:</strong></p>
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>työnaikaisen sähköturvallisuuden valvoja (STV)</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Yhteydenpito ja ilmoitukset:</strong></p>
+            <ul style="margin:0 0 0 18px; padding:0;">
+              <li>käyttöä valvova henkilö (KVH)</li>
+            </ul>
+          </td>
+
+          <td style="border:1px solid #d9d9d9; padding:12px; vertical-align:top;">
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>arvioidaan työ, sen ympäristö ja tarvittavat turvallisuustoimet (mm. henkilönsuojaimet)</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Työn aloituslupa:</strong></p>
+            <ul style="margin:0 0 0 18px; padding:0;">
+              <li>työnaikaisen sähköturvallisuuden valvoja (STV)</li>
+            </ul>
+          </td>
+
+          <td style="border:1px solid #d9d9d9; padding:12px; vertical-align:top; background:#fafafa;">
+            <p style="margin:0 0 8px 0;"><strong>Korjaustyöt:</strong></p>
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>tunnistetaan kohde ja sen rakenne</li>
+              <li>arvioidaan riskit ja tehdään tarvittavat turvallisuustoimet</li>
+            </ul>
+
+            <p style="margin:0 0 10px 0;">Huomaa: Vian hakeminen yleensä jännitteisenä, korjaus jännitteettömänä.</p>
+
+            <p style="margin:0 0 8px 0;"><strong>Vaihtotyöt:</strong></p>
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>sulakkeiden vaihto eri tilanteissa (virrallinen, jännitteinen, jännitteetön)</li>
+              <li>lamppujen vaihdon turvallisuus</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Työskentelylupa ja ilmoitukset:</strong></p>
+            <ul style="margin:0 0 10px 18px; padding:0;">
+              <li>käyttöä valvovalta henkilöltä (KVH)</li>
+            </ul>
+
+            <p style="margin:0 0 8px 0;"><strong>Työn aloituslupa:</strong></p>
+            <ul style="margin:0 0 0 18px; padding:0;">
+              <li>työnaikaisen sähköturvallisuuden valvoja (STV)</li>
+            </ul>
+          </td>
+
+          <td style="border:1px solid #d9d9d9; padding:12px; vertical-align:top;">
+            <ul style="margin:0 0 0 18px; padding:0;">
+              <li>ilmastollisten olosuhteiden arviointi</li>
+              <li>sähkötapaturmien ja/tai vaaratilanteiden raportointi</li>
+              <li>hätätoimenpiteiden järjestely tarvittaessa</li>
+              <li>oikeus keskeyttää vaaralliseksi katsottu työ</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p style="margin:10px 0 0 0; font-size:14px; color:#666;">
+    Puhelimella taulukkoa voi vierittää sivusuunnassa.
+  </p>
+</div>
+
 <img src="assets/images/taulukkox1.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
 
