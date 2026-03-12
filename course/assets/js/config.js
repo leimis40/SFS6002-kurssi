@@ -144,7 +144,12 @@ jotta työn turvallisuus voidaan varmistaa.</p>
       id: "03",
       title: "3. Riskien arviointi ja työn suunnittelu",
       audioSrc: "assets/audio/03.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (riskien tunnistaminen, suunnittelu).</p>`,
+      contentHtml: `<p>Lisää tähän oma sisältösi (riskien tunnistaminen, suunnittelu).</p>
+
+<img src="assets/images/riskien_arviointi_ja_tyon_suunnitelma.png" 
+         style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
+      
+      `,
     },
     {
       id: "04",
