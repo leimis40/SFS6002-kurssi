@@ -150,22 +150,26 @@ jotta työn turvallisuus voidaan varmistaa.</p>
 riskien arviointi. Arvioinnissa on huomioitava sähkölaitteiston lisäksi myös työympäristö,
 jotta mahdolliset vaaratekijät voidaan tunnistaa ja hallita.</p>
 
-<p>Työlle valitaan turvallinen työmenetelmä ja tarvittavat suojaustoimenpiteet.
-Sähkötöissä käytettävät työmenetelmät voivat olla esimerkiksi:</p>
+<p><strong>Valokaaririskien arviointi</strong> on osa sähkötöiden riskienhallintaa. Ensisijainen turvallisuusperiaate on 
+poistaa vaara tai eristää se, sillä pelkkä henkilönsuojainten käyttö ei yksin riitä ehkäisemään onnettomuuksia.</p>
+
+<p>Jos työ joudutaan tekemään jännitteisenä ja siihen liittyy valokaaren vaara, on työstä tehtävä 
+riskienarviointi ja valittava tilanteeseen riittävät suojavarusteet. Tämmöinen riski esiintyy syöskennellessä sähkökeskuksissa
+joissa jännite! Valokaarivaara on jännitteisessä keskuksessa vaikka työ ei olisi jännitetyötä!</p>
 
 <ul>
-  <li>työskentely jännitteettömänä</li>
-  <li>jännitetyö</li>
-  <li>työskentely jännitteen lähialueella</li>
-  <li>työskentely lähialueen ulkopuolella</li>
+  <li>valokaaririskiä arvioidaan esimerkiksi nimellisjännitteen, oikosulkuvirran ja poiskytkentäajan perusteella</li>
+  <li>arvioinnin perusteella määritellään tarvittavat suojaimet ja turvalliset työmenetelmät</li>
+  <li>riskien arviointi tehdään aina ennen työn aloittamista</li>
+  <li>Uusi SFS 6002 standardi liite S sisältää lisätietoa valokaarelta suojautumisesta</li>
 </ul>
 
-<p>Työn aloittamiseen tarvitaan käyttöä valvovan henkilön (KVH) antama valtuutus.
-Työnaikaisen sähköturvallisuuden valvojan (STV) tehtävänä on varmistaa,
-että työryhmä tuntee työn riskit, työmenetelmät ja turvallisuusohjeet ennen työn aloittamista.</p>
+<p>Joissakin pienjännitetilanteissa erillistä valokaarienergian laskentaa ei vaadita, mutta riskit on silti
+arvioitava ja työn turvallisuus varmistettava ennen työn aloittamista.</p>
 
-<p>Jos työ keskeytyy, ennen työn jatkamista on varmistettava, että valtuutus on edelleen voimassa
-ja että kaikki suojaustoimenpiteet ovat paikallaan.</p>
+<p> yli 1000V asennuksissa pitää tehdä kytkentäsuunnitelma, kun tehdään käytönaikaisia kytkentöjä</p>
+
+
 
 <img src="assets/images/riskien_arviointi_ja_tyon_suunnitelma.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
