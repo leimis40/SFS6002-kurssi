@@ -221,7 +221,89 @@ turvallisia työmenetelmiä.</p>
       id: "05",
       title: "5. Turvalliset työmenetelmät ja menettelyt",
       audioSrc: "assets/audio/05.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (turvalliset työmenetelmät).</p>`,
+      contentHtml: `
+
+      <p><strong>Turvalliset työmenetelmät</strong> ovat sähkötöiden keskeinen osa riskien hallintaa. 
+Työ on aina suunniteltava etukäteen ja siinä on noudatettava sovittuja turvallisia menettelytapoja.</p>
+
+<p>Ennen työn aloittamista on varmistettava, että työntekijät tuntevat työn riskit, 
+työmenetelmän sekä tarvittavat suojaustoimenpiteet. Työnaikaisen sähköturvallisuuden 
+valvojan (STV) tehtävänä on varmistaa, että ohjeet on ymmärretty ja että työtä 
+tehdään turvallisesti koko työn ajan.</p>
+
+<ul>
+  <li>työ suunnitellaan ja riskit arvioidaan ennen työn aloittamista</li>
+  <li>työhön valitaan turvallinen työmenetelmä</li>
+  <li>työalue rajataan ja tarvittavat varoitusmerkinnät asetetaan</li>
+  <li>käytetään asianmukaisia työvälineitä ja henkilönsuojaimia</li>
+</ul>
+
+<p>Sähkötöissä käytettävät työmenetelmät voidaan jakaa kolmeen pääryhmään:</p>
+
+<ul>
+  <li>työskentely jännitteettömänä</li>
+  <li>jännitetyö</li>
+  <li>työskentely jännitetyöalueen ulkopuolella mutta kuitenkin lähialueella (lähityö)</li>
+</ul>
+
+<div style="margin:24px 0;">
+  <h3 style="margin:0 0 12px 0; font-size:20px; line-height:1.3;">
+    Taulukko Z.1 Lähialueen ulkomitan D<sub>V</sub> arvot eri jännitteillä muilla kuin ilmajohtojilla
+  </h3>
+
+  <div style="overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid #d9d9d9; border-radius:10px;">
+    <table style="border-collapse:collapse; min-width:780px; width:100%; background:#fff; font-size:15px; line-height:1.4;">
+      <thead>
+        <tr style="background:#f3f6fa;">
+          <th style="border:1px solid #d9d9d9; padding:12px; text-align:left; min-width:210px;">
+            Nimellisjännite U<sub>N</sub><br><span style="font-weight:normal;">kV</span>
+          </th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">≤ 1</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">3</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">6</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">10</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">20</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">30</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">45</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">110</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">220</th>
+          <th style="border:1px solid #d9d9d9; padding:12px;">400</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:left; background:#fafafa;">
+            <strong>Lähialueen ulkomitta D<sub>V</sub></strong><br><span style="font-weight:normal;">m</span>
+          </td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">0,5</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">1,2</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">1,2</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">1,4</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">1,4</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">1,6</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">1,6</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">2,0</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">3,6</td>
+          <td style="border:1px solid #d9d9d9; padding:12px; text-align:center;">4,5</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p style="margin:10px 0 0 0; font-size:14px; color:#666;">
+    Puhelimella taulukkoa voi vierittää sivusuunnassa.
+  </p>
+</div>
+
+<p>Turvallisin työmenetelmä on aina <strong>työskentely jännitteettömänä</strong>. 
+Muut työmenetelmät edellyttävät erityisiä suojaustoimenpiteitä, 
+koulutusta sekä tarkkaa riskien arviointia.</p>
+
+<p>Turvallinen työskentely perustuu siihen, että sovittuja työmenetelmiä 
+noudatetaan ja että mahdollisiin vaaratilanteisiin reagoidaan välittömästi.</p>
+
+      
+      `,
     },
     {
       id: "06",
