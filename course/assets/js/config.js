@@ -475,12 +475,48 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
 <p>Työssä on noudatettava riittäviä vähimmäisetäisyyksiä jännitteisiin osiin. Tarvittaessa käytetään suojalevyjä, 
     työskentelysuojia tai muita keinoja, joilla estetään tahaton kosketus ja ulottuminen jännitetyöalueelle.</p>
 
-<ul>
-  <li>työalue ja turvalliset etäisyydet määritellään ennen työn aloittamista</li>
-  <li>jännitteiset osat suojataan tai merkitään selvästi</li>
-  <li>pitkien työvälineiden, koneiden ja nostimien käyttö vaatii erityistä varovaisuutta</li>
-  <li>Huom. aina kun mahdollista on erittäin suositeltavaa tehdä työskentelykohde kokonaan jännitteettömäksi!</li>
-</ul>
+<div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+    
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; width:60px; text-align:left;">#</th>
+        <th style="padding:12px; text-align:left;">Turvallisen työskentelyn periaatteet</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">1</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">
+          Työalue ja turvalliset etäisyydet määritellään ennen työn aloittamista.
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">2</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">
+          Jännitteiset osat suojataan tai merkitään selvästi.
+        </td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">3</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">
+          Pitkien työvälineiden, koneiden ja nostimien käyttö vaatii erityistä varovaisuutta.
+        </td>
+      </tr>
+
+      <tr style="background:#fff4e5;">
+        <td style="padding:12px; border-top:1px solid #d9e2f0; font-weight:bold;">!</td>
+        <td style="padding:12px; border-top:1px solid #d9e2f0;">
+          <strong>Huom:</strong> aina kun mahdollista on erittäin suositeltavaa tehdä työskentelykohde kokonaan jännitteettömäksi.
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
 
 <p>Ilmajohtojen läheisyydessä on varmistettava, ettei mikään koneen, kuorman tai työvälineen osa ulotu liian lähelle jännitteisiä johtimia. Myös sähkötiloissa tehtävissä rakennus-, siivous- ja huoltotöissä on varmistettava riittävä opastus, valvonta ja turvalliset työmenetelmät.</p>
       
