@@ -602,7 +602,93 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
       id: "08",
       title: "8. Onnettomuustilanteet ja ensiapu",
       audioSrc: "assets/audio/08.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (toimintaohjeet, hätätilanteet).</p>`,
+      contentHtml: `
+
+      <div style="margin:20px 0; padding:16px; background:#fff4f4; border:1px solid #f3b3b3; border-radius:10px;">
+  <p style="margin:0; color:#b91c1c; font-weight:bold; font-size:18px;">
+    ⚠️ Sähkötapaturma on aina vakava hätätilanne
+  </p>
+  <p style="margin:10px 0 0 0;">
+    Sähköisku tai valokaari voi aiheuttaa hengenvaaran, palovammoja, sydämen rytmihäiriöitä tai
+    tajuttomuuden. Toiminnan on oltava nopeaa, mutta samalla turvallista.
+  </p>
+</div>
+
+<p><strong>Toimi sähkötapaturmassa tässä järjestyksessä:</strong></p>
+
+<div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; width:60px;">#</th>
+        <th style="padding:12px; text-align:left;">Toimintaohje</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">1</td>
+        <td style="padding:12px;">
+          <strong>Varmista oma turvallisuutesi.</strong> Älä koske uhriin ennen kuin olet varma,
+          että jännite on poistettu tai alue on turvallinen.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">2</td>
+        <td style="padding:12px;">
+          <strong>Poista jännite nopeasti.</strong> Katkaise virta, irrota pistotulppa tai erottele
+          syöttö turvallisella tavalla.
+        </td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">3</td>
+        <td style="padding:12px;">
+          <strong>Hälytä apua numerosta 112.</strong> Kerro mitä on tapahtunut, tarkka sijainti
+          ja onko uhri tajuissaan ja hengittääkö hän normaalisti.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">4</td>
+        <td style="padding:12px;">
+          <strong>Tarkista tajunta ja hengitys.</strong> Jos henkilö ei hengitä normaalisti,
+          aloita välittömästi paineluelvytys.
+        </td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">5</td>
+        <td style="padding:12px;">
+          <strong>Anna ensiapua ja seuraa uhria.</strong> Hoida näkyvät palovammat, pidä uhri levossa
+          ja odota ammattiapua.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div style="margin:20px 0; padding:16px; background:#f8fbff; border:1px solid #d9e2f0; border-radius:10px;">
+  <p style="margin:0 0 10px 0; font-weight:bold;">🫀 Elvytyksen perusohje</p>
+  <p style="margin:0;">
+    Jos henkilö ei hengitä normaalisti, aloita paineluelvytys. Paina rintalastan keskeltä
+    reippaasti ja tasaisesti. Jos osaat puhalluselvytyksen, käytä rytmiä <strong>30 painelua : 2 puhallusta</strong>.
+    Jatka, kunnes ammattiapu saapuu tai henkilö alkaa hengittää normaalisti.
+  </p>
+</div>
+
+<div style="margin:20px 0; padding:16px; background:#fffbea; border:1px solid #f5d76e; border-radius:10px;">
+  <p style="margin:0; font-weight:bold;">📞 Muista 112-hätäpuhelussa</p>
+  <ul style="margin:10px 0 0 18px; padding:0;">
+    <li>kerro mitä on tapahtunut</li>
+    <li>ilmoita tarkka osoite tai sijainti</li>
+    <li>vastaa kysymyksiin rauhallisesti</li>
+    <li>noudata annettuja ohjeita</li>
+    <li>älä sulje puhelua ennen lupaa</li>
+  </ul>
+</div>
+
+<p><strong>Tärkeää:</strong> sähköiskun saanut henkilö tulee aina ohjata lääkärin arvioon,
+vaikka oireet näyttäisivät aluksi lieviltä. Sähköisku voi aiheuttaa myös viiveellä ilmeneviä vaurioita.</p>
+      
+      
+      `,
     },
     {
       id: "09",
