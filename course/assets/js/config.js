@@ -694,7 +694,112 @@ vaikka oireet näyttäisivät aluksi lieviltä. Sähköisku voi aiheuttaa myös 
       id: "09",
       title: "9. Kertaus ja keskeiset muistilistat",
       audioSrc: "assets/audio/09.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (kertaus, checklistit).</p>`,
+      contentHtml: `
+
+      <div style="margin:20px 0; padding:16px; background:#f8fbff; border:1px solid #d9e2f0; border-radius:10px;">
+  <p style="margin:0; font-size:18px; font-weight:bold;">Kertaus: tärkeimmät asiat sähkötyöturvallisuudesta</p>
+  <p style="margin:10px 0 0 0;">
+    Sähkötyöturvallisuuden perustana ovat oikeat työmenetelmät, huolellinen suunnittelu,
+    riskien arviointi ja selkeä vastuunjako. Turvallisuus varmistetaan aina ennen työn aloittamista
+    ja koko työn ajan.
+  </p>
+</div>
+
+<div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; width:70px;">Kohta</th>
+        <th style="padding:12px; text-align:left;">Keskeinen muistettava asia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">1</td>
+        <td style="padding:12px;">
+          Kurssin tavoitteena on vahvistaa sähköturvallista työskentelyä ja varmistaa, että työssä
+          noudatetaan turvallisia menettelyjä, ajantasaisia ohjeita ja standardin periaatteita.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">2</td>
+        <td style="padding:12px;">
+          Sähkötöissä jokaisella on oma roolinsa ja vastuunsa. Tärkeitä toimijoita ovat esimerkiksi
+          sähkötöiden johtaja, käytön johtaja, työnaikaisen sähköturvallisuuden valvoja (STV),
+          käyttöä valvova henkilö (KVH) sekä työntekijä.
+        </td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">3</td>
+        <td style="padding:12px;">
+          Ennen työn aloittamista työ suunnitellaan, riskit arvioidaan ja valitaan turvallinen työmenetelmä.
+          Työlle on oltava tarvittavat valtuutukset ja suojaustoimenpiteet.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">4</td>
+        <td style="padding:12px;">
+          Sähkö on vaarallista. Virran vaikutus ihmiskehoon riippuu virran suuruudesta, kulkureitistä,
+          vaikutusajasta ja ihon impedanssista. Vikavirtasuoja pienentää vakavan sähköiskun riskiä,
+          mutta ei korvaa turvallisia työmenetelmiä.
+        </td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">5</td>
+        <td style="padding:12px;">
+          Turvallisin työmenetelmä on aina työskentely jännitteettömänä. Työalue rajataan,
+          riskit tunnistetaan ja käytetään oikeita työvälineitä sekä henkilönsuojaimia.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">6</td>
+        <td style="padding:12px;">
+          Jännitteettömäksi tekemisessä noudatetaan viittä turvallisuussääntöä:
+          täydellinen erottaminen, jännitteen kytkemisen estäminen, jännitteettömyyden toteaminen,
+          työmaadoittaminen ja suojaus lähellä olevilta jännitteisiltä osilta.
+        </td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">7</td>
+        <td style="padding:12px;">
+          Työskentely jännitteen läheisyydessä vaatii erityistä varovaisuutta. Turvaetäisyydet,
+          merkinnät, suojaukset ja työalueen rajaus on määriteltävä etukäteen.
+          Aina kun mahdollista, työkohde tehdään kokonaan jännitteettömäksi.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">8</td>
+        <td style="padding:12px;">
+          Sähkötapaturmassa toimitaan nopeasti mutta turvallisesti: varmista oma turvallisuutesi,
+          poista jännite, hälytä 112, tarkista hengitys ja anna ensiapua tai aloita elvytys tarvittaessa.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div style="margin:20px 0; padding:16px; background:#fffbea; border:1px solid #f5d76e; border-radius:10px;">
+  <p style="margin:0; font-weight:bold;">Muistilista ennen työn aloittamista</p>
+  <ul style="margin:10px 0 0 18px; padding:0; line-height:1.6;">
+    <li>varmista oikea työkohde</li>
+    <li>arvioi vaarat ja riskit</li>
+    <li>valitse turvallinen työmenetelmä</li>
+    <li>käytä oikeita työvälineitä ja suojaimia</li>
+    <li>varmista valtuutukset ja vastuut</li>
+    <li>keskeytä työ heti, jos turvallisuudesta syntyy epäilys</li>
+  </ul>
+</div>
+
+<div style="margin:20px 0; padding:16px; background:#fff4f4; border:1px solid #f3b3b3; border-radius:10px;">
+  <p style="margin:0; font-weight:bold; color:#b91c1c;">Tärkein periaate</p>
+  <p style="margin:10px 0 0 0;">
+    Sähkötyössä turvallisuus perustuu ennakointiin, oikeisiin menettelyihin ja siihen,
+    että työtä ei jatketa, jos vaaratekijät eivät ole hallinnassa.
+  </p>
+</div>
+      
+      
+      `,
     },
     {
       id: "10",
