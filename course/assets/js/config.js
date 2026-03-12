@@ -180,7 +180,42 @@ arvioitava ja työn turvallisuus varmistettava ennen työn aloittamista.</p>
       id: "04",
       title: "4. Sähkön vaarat ja suojautuminen",
       audioSrc: "assets/audio/04.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (vaaratekijät, suojaimet, käytännöt).</p>`,
+      contentHtml: `
+      <p><strong>Sähkö voi aiheuttaa vakavia vammoja tai kuoleman.</strong> 
+Sähkön vaarat liittyvät erityisesti sähköiskuun, palovammoihin sekä 
+valokaaren aiheuttamiin lämpö- ja painevaikutuksiin.</p>
+
+<p>Sähkövirran kulkiessa ihmiskehon läpi sen vaikutus riippuu erityisesti 
+virran suuruudesta, kulkureitistä kehossa sekä vaikutusajasta. 
+Erityisen vaarallinen tilanne syntyy, jos virta kulkee sydämen tai 
+hengityselinten kautta.</p>
+
+<p><strong>Ihmisen ihon impedanssi</strong> vaikuttaa siihen, kuinka suuri virta 
+pääsee kulkemaan kehon läpi. Kuiva ja ehjä iho voi rajoittaa virtaa, 
+mutta kostea tai vaurioitunut iho pienentää vastusta merkittävästi, 
+jolloin kehon läpi kulkeva virta voi kasvaa vaarallisen suureksi.</p>
+
+<ul>
+  <li>jo muutaman milliampeerin virta voi tuntua ihmiskehossa</li>
+  <li>noin 10–15 mA virta voi aiheuttaa lihasten kouristumisen</li>
+  <li>yli 30 mA virta voi olla hengenvaarallinen</li>
+</ul>
+
+<p><strong>Vikavirtasuoja</strong> on tärkeä suoja sähköiskuja vastaan. 
+Se katkaisee sähkönsyötön nopeasti, jos laitteistossa havaitaan 
+vuotovirta maahan. Yleisesti käytetty 30 mA vikavirtasuoja toimii 
+riittävän nopeasti rajoittaakseen ihmiskehon läpi kulkevan virran 
+vaikutusaikaa ja pienentääkseen vakavan sähköiskun riskiä.</p>
+
+<p>Sähkötöissä turvallisuuden kannalta tärkeintä on kuitenkin 
+välttää jännitteisiin osiin koskettamista ja noudattaa aina 
+turvallisia työmenetelmiä.</p>
+
+<img src="assets/images/sahkon_vaarat_ja_suojautuminen.png" 
+         style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
+      
+      
+      `,
     },
     {
       id: "05",
