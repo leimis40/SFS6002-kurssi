@@ -36,24 +36,97 @@ const COURSE = {
  
 
   <p><strong>Tällä kurssilla käsitellään muun muassa seuraavia aiheita:</strong></p>
-  <ul>
-    <li>vastuut ja roolit sähkötyössä</li>
-    <li>riskien arviointi ja työn suunnittelu</li>
-    <li>sähkön vaarat ja niiltä suojautuminen</li>
-    <li>turvalliset työmenetelmät ja menettelyt</li>
-    <li>jännitteettömäksi tekeminen ja varmistaminen</li>
-    <li>työskentely jännitteen läheisyydessä</li>
-    <li>onnettomuustilanteet ja ensiapu</li>
-    <li>kertaus ja keskeiset muistilistat</li>
-  </ul>
+ <div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+    
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; width:70px;">#</th>
+        <th style="padding:12px; text-align:left;">Kurssin sisältö</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">1</td>
+        <td style="padding:12px;">vastuut ja roolit sähkötyössä</td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">2</td>
+        <td style="padding:12px;">riskien arviointi ja työn suunnittelu</td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">3</td>
+        <td style="padding:12px;">sähkön vaarat ja niiltä suojautuminen</td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">4</td>
+        <td style="padding:12px;">turvalliset työmenetelmät ja menettelyt</td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">5</td>
+        <td style="padding:12px;">jännitteettömäksi tekeminen ja varmistaminen</td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">6</td>
+        <td style="padding:12px;">työskentely jännitteen läheisyydessä</td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">7</td>
+        <td style="padding:12px;">onnettomuustilanteet ja ensiapu</td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">8</td>
+        <td style="padding:12px;">kertaus ja keskeiset muistilistat</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
 
   <p><strong>Kurssin rakenne:</strong></p>
-  <ul>
-    <li>kurssi etenee vaiheittain sivu kerrallaan</li>
-    <li>jokaisella sivulla on oma sisältö ja aiheeseen liittyvä ohjaava kuva</li>
-    <li>seuraava sivu avautuu, kun olet kuunnellut audio-osuuden loppuun</li>
-    <li>kurssin lopussa siirryt todistuslomakkeelle, jonka perusteella kurssitodistus lähetetään sähköpostiin</li>
-  </ul>
+  
+ <div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+    
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; width:70px;">#</th>
+        <th style="padding:12px; text-align:left;">Kurssin eteneminen</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">1</td>
+        <td style="padding:12px;">kurssi etenee vaiheittain sivu kerrallaan</td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">2</td>
+        <td style="padding:12px;">jokaisella sivulla on oma sisältö ja aiheeseen liittyvä ohjaava kuva</td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">3</td>
+        <td style="padding:12px;">seuraava sivu avautuu, kun olet kuunnellut audio-osuuden loppuun</td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">4</td>
+        <td style="padding:12px;">kurssin lopussa siirryt todistuslomakkeelle, jonka perusteella kurssitodistus lähetetään sähköpostiin</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
 
 <p>
 Kurssin lopuksi on lyhyt tentti jolla varmistetaan kurssin tavoitteiden täyttyminen. Tästä koulutuksesta saa kurssin päätyttyä valitsemaansa sähköpostiin (ilmoitetaan lopuksi) kurssitodistuksen.
