@@ -35,7 +35,7 @@ const COURSE = {
 
  
 
-  <p><strong>Tällä kurssilla käsitellään muun muassa seuraavia aiheita:</strong></p>
+
  <div style="margin:20px 0; overflow-x:auto;">
   <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
     
@@ -91,7 +91,7 @@ const COURSE = {
   </table>
 </div>
 
-  <p><strong>Kurssin rakenne:</strong></p>
+
   
  <div style="margin:20px 0; overflow-x:auto;">
   <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
