@@ -123,6 +123,18 @@ työnaikaisen sähköturvallisuuden valvojalle (STV) työn aloittamista varten.<
 <p>KVH voi siirtää osan tehtävistään muille henkilöille, mutta vastuunjako tulee
 määritellä selkeästi.</p>
 
+<p><strong>Työntekijän vastuulla</strong> on noudattaa työluvan yhteydessä annettuja ohjeita
+sekä varmistaa, että hän on ymmärtänyt työtehtävään liittyvät turvallisuusohjeet ja
+suojatoimenpiteet ennen työn aloittamista.</p>
+
+<p>Jos työn aikana ilmenee epäselvyyksiä ohjeissa tai työn turvallisuudessa,
+työ on keskeytettävä välittömästi ja asiasta on pyydettävä lisäohjeita
+työnaikaisen sähköturvallisuuden valvojalta (STV).</p>
+
+<p>Tarvittaessa työnaikaisen sähköturvallisuuden valvoja (STV) ilmoittaa
+tilanteesta sähkölaitteiston käyttöä valvovalle henkilölle (KVH),
+jotta työn turvallisuus voidaan varmistaa.</p>
+
 <img src="assets/images/taulukkox1.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
 
