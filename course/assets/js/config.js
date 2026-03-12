@@ -468,7 +468,7 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
       audioSrc: "assets/audio/07.mp3",
       contentHtml: `<p>Lisää tähän oma sisältösi (etäisyydet, suojaus, käytännöt).</p>
       
-      <div style="max-width:900px; margin:24px auto; background:#fff; border:2px solid #333; padding:16px; box-sizing:border-box;">
+    <div style="max-width:900px; margin:24px auto; background:#fff; border:2px solid #333; padding:16px; box-sizing:border-box;">
   <svg viewBox="0 0 900 560" style="width:100%; height:auto; display:block;" xmlns="http://www.w3.org/2000/svg">
     
     <!-- Outer circle -->
@@ -484,40 +484,60 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
     <line x1="280" y1="220" x2="280" y2="125" stroke="#222" stroke-width="3"/>
     <polygon points="280,118 275,128 285,128" fill="#222"/>
     <polygon points="280,227 275,217 285,217" fill="#222"/>
-    <text x="300" y="165" font-size="34" font-family="Georgia, serif" font-style="italic" fill="#222">D<tspan dy="8" font-size="22">L</tspan></text>
+    <text x="300" y="165" font-size="34" font-family="Georgia, serif" font-style="italic" fill="#222">
+      D<tspan dy="8" font-size="22">L</tspan>
+    </text>
 
-    <!-- DV arrow -->
-    <line x1="280" y1="220" x2="435" y2="65" stroke="#222" stroke-width="3"/>
-    <polygon points="442,58 431,62 438,69" fill="#222"/>
-    <polygon points="287,227 291,216 298,223" fill="#222"/>
-    <text x="360" y="118" font-size="34" font-family="Georgia, serif" font-style="italic" fill="#222">D<tspan dy="8" font-size="22">V</tspan></text>
+    <!-- DV arrow: from center to exact outer-circle boundary -->
+    <line x1="280" y1="220" x2="410.8" y2="89.2" stroke="#222" stroke-width="3"/>
+    <polygon points="410.8,89.2 399.8,92.5 407.5,100.2" fill="#222"/>
+    <polygon points="280,220 290,216 284,226" fill="#222"/>
+    <text x="355" y="120" font-size="34" font-family="Georgia, serif" font-style="italic" fill="#222">
+      D<tspan dy="8" font-size="22">V</tspan>
+    </text>
 
     <!-- Label pointers -->
-    <line x1="345" y1="165" x2="575" y2="88" stroke="#222" stroke-width="3"/>
-    <circle cx="345" cy="165" r="4" fill="#222"/>
-    <text x="590" y="95" font-size="32" font-family="Arial, sans-serif" fill="#222">Paljas jännitteinen osa</text>
+    <!-- Paljas jännitteinen osa -> center black dot -->
+    <line x1="280" y1="220" x2="575" y2="88" stroke="#222" stroke-width="3"/>
+    <circle cx="280" cy="220" r="4" fill="#222"/>
+    <text x="590" y="95" font-size="32" font-family="Arial, sans-serif" fill="#222">
+      Paljas jännitteinen osa
+    </text>
 
+    <!-- Jännitetyöalue -> grey inner area -->
     <line x1="330" y1="215" x2="570" y2="160" stroke="#222" stroke-width="3"/>
     <circle cx="330" cy="215" r="4" fill="#222"/>
-    <text x="585" y="168" font-size="32" font-family="Arial, sans-serif" fill="#222">Jännitetyöalue</text>
+    <text x="585" y="168" font-size="32" font-family="Arial, sans-serif" fill="#222">
+      Jännitetyöalue
+    </text>
 
+    <!-- Lähialue -> white ring -->
     <line x1="445" y1="220" x2="575" y2="220" stroke="#222" stroke-width="3"/>
     <circle cx="445" cy="220" r="4" fill="#222"/>
-    <text x="590" y="227" font-size="32" font-family="Arial, sans-serif" fill="#222">Lähialue</text>
+    <text x="590" y="227" font-size="32" font-family="Arial, sans-serif" fill="#222">
+      Lähialue
+    </text>
 
+    <!-- Outside near area -->
     <line x1="530" y1="360" x2="575" y2="375" stroke="#222" stroke-width="3"/>
     <circle cx="530" cy="360" r="4" fill="#222"/>
-    <text x="585" y="388" font-size="32" font-family="Arial, sans-serif" fill="#222">Lähialueen ulkopuolella</text>
+    <text x="585" y="388" font-size="32" font-family="Arial, sans-serif" fill="#222">
+      Lähialueen ulkopuolella
+    </text>
 
     <!-- Bottom legend box -->
     <rect x="15" y="500" width="850" height="70" fill="none" stroke="#222" stroke-width="2"/>
 
-    <text x="45" y="535" font-size="30" font-family="Georgia, serif" font-style="italic" fill="#222">D<tspan dy="8" font-size="20">L</tspan></text>
+    <text x="45" y="535" font-size="30" font-family="Georgia, serif" font-style="italic" fill="#222">
+      D<tspan dy="8" font-size="20">L</tspan>
+    </text>
     <text x="85" y="535" font-size="26" font-family="Arial, sans-serif" fill="#222">
       Etäisyys, joka määrittelee jännitetyöalueen ulkoreunan
     </text>
 
-    <text x="45" y="562" font-size="30" font-family="Georgia, serif" font-style="italic" fill="#222">D<tspan dy="8" font-size="20">V</tspan></text>
+    <text x="45" y="562" font-size="30" font-family="Georgia, serif" font-style="italic" fill="#222">
+      D<tspan dy="8" font-size="20">V</tspan>
+    </text>
     <text x="85" y="562" font-size="26" font-family="Arial, sans-serif" fill="#222">
       Etäisyys, joka määrittelee lähialueen ulkoreunan
     </text>
