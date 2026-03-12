@@ -1052,7 +1052,40 @@ vaikka oireet näyttäisivät aluksi lieviltä. Sähköisku voi aiheuttaa myös 
       title: "10. Kurssin päätös ja todistus",
       audioSrc: "assets/audio/10.mp3",
       contentHtml: `
-        <p>Lisää tähän oma yhteenveto ja ohjeistus todistuksen hakemiseen.</p>
+        <div style="max-width:800px; margin:30px auto; font-family:Arial, sans-serif;">
+
+  <div style="background:#f0f6ff; border-left:6px solid #1d4ed8; padding:25px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+
+    <h2 style="margin-top:0; color:#1d4ed8;">Kurssin päätös</h2>
+
+    <p style="font-size:16px; line-height:1.6;">
+      <strong>Onneksi olkoon – olet suorittanut kurssin materiaaliosuuden!</strong>
+    </p>
+
+    <p style="font-size:16px; line-height:1.6;">
+      Seuraavaksi suoritat vielä lyhyen <strong>tentin</strong>. Kun tentti on suoritettu hyväksytysti,
+      avautuu <strong>kurssitodistuksen hakulomake</strong>.
+    </p>
+
+    <p style="font-size:16px; line-height:1.6;">
+      Täytä lomakkeeseen omat tietosi huolellisesti ja varmista erityisesti, että 
+      <strong>sähköpostiosoite on kirjoitettu oikein</strong>. Kurssitodistus lähetetään
+      ilmoittamaasi sähköpostiosoitteeseen.
+    </p>
+
+    <p style="font-size:16px; line-height:1.6;">
+      Mikäli todistukseen tulee virhe tai et saa todistusta, ole yhteydessä 
+      <strong>Mirus Electrum Oy:n yhteystietoihin</strong>, niin mahdolliset virheet korjataan.
+    </p>
+
+    <div style="background:#ffffff; border:1px solid #d9e2f0; padding:15px; border-radius:6px; margin-top:20px;">
+      <strong>Huomio:</strong> Tentti ja kurssitodistuksen hakulomake tehdään 
+      <strong>Tally-lomakkeella</strong>. Linkki tenttiin löytyy seuraavalta sivulta.
+    </div>
+
+  </div>
+
+</div>
         <p>Kun tämä audio on kuunneltu loppuun, avautuu nappi todistuslomakkeeseen.</p>
       `,
     },
