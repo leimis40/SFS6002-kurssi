@@ -17,7 +17,7 @@ const COURSE = {
         <p>Esim. kurssin tavoite, kenelle suunnattu, miten suoritus etenee.</p>
         <ul>
           <li>Ohje: kuuntele audio loppuun avataksesi seuraavan sivun.</li>
-          <li>Token-linkki on henkilökohtainen.</li>
+          <li>Token-linkki on yrityskohtainen. Se yksilöi kurssitodistuksen.</li>
         </ul>
       `,
     },
