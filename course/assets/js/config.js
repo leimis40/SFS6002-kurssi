@@ -144,7 +144,28 @@ jotta työn turvallisuus voidaan varmistaa.</p>
       id: "03",
       title: "3. Riskien arviointi ja työn suunnittelu",
       audioSrc: "assets/audio/03.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (riskien tunnistaminen, suunnittelu).</p>
+      contentHtml: `
+
+      <p><strong>Ennen työn aloittamista</strong> työ on suunniteltava huolellisesti ja siihen on tehtävä
+riskien arviointi. Arvioinnissa on huomioitava sähkölaitteiston lisäksi myös työympäristö,
+jotta mahdolliset vaaratekijät voidaan tunnistaa ja hallita.</p>
+
+<p>Työlle valitaan turvallinen työmenetelmä ja tarvittavat suojaustoimenpiteet.
+Sähkötöissä käytettävät työmenetelmät voivat olla esimerkiksi:</p>
+
+<ul>
+  <li>työskentely jännitteettömänä</li>
+  <li>jännitetyö</li>
+  <li>työskentely jännitteen lähialueella</li>
+  <li>työskentely lähialueen ulkopuolella</li>
+</ul>
+
+<p>Työn aloittamiseen tarvitaan käyttöä valvovan henkilön (KVH) antama valtuutus.
+Työnaikaisen sähköturvallisuuden valvojan (STV) tehtävänä on varmistaa,
+että työryhmä tuntee työn riskit, työmenetelmät ja turvallisuusohjeet ennen työn aloittamista.</p>
+
+<p>Jos työ keskeytyy, ennen työn jatkamista on varmistettava, että valtuutus on edelleen voimassa
+ja että kaikki suojaustoimenpiteet ovat paikallaan.</p>
 
 <img src="assets/images/riskien_arviointi_ja_tyon_suunnitelma.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
