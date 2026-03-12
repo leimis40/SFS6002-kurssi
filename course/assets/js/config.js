@@ -85,6 +85,10 @@ Erillistä korttia ei tarvita. Todistuksella voi osoittaa sen, että kurssi on k
 <p>Työnaikaisen sähköturvallisuuden valvojan voi nimetä esimerkiksi sähkötöiden johtaja, käytön johtaja tai työnantaja. Nimeäminen suositellaan tehtäväksi kirjallisesti.</p>
 
 <p>Yksin työskentelevä sähköalan ammattihenkilö vastaa työnaikaisesta sähköturvallisuuden valvonnasta ilman erillistä nimeämistä.</p>
+
+<img src="assets/images/taulukkox1.png" 
+         style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
+
       `,
     },
     {
