@@ -70,6 +70,27 @@ Erillistä korttia ei tarvita. Todistuksella voi osoittaa sen, että kurssi on k
       title: "2. Vastuut ja roolit sähkötyössä",
       audioSrc: "assets/audio/02.mp3",
       contentHtml: `
+
+<p><strong>Sähkötöiden johtaja</strong> vastaa siitä, että sähkötöissä noudatetaan sähköturvallisuussäädöksiä, standardeja ja sovittuja turvallisia työmenetelmiä. Hän huolehtii siitä, että sähkötöitä tekevät henkilöt ovat tehtäviinsä riittävän ammattitaitoisia ja opastettuja.</p>
+
+<ul>
+  <li>vastaa sähkötöiden turvallisesta järjestämisestä</li>
+  <li>varmistaa, että työssä noudatetaan sähköturvallisuusmääräyksiä</li>
+  <li>huolehtii työntekijöiden osaamisesta, opastuksesta ja tarvittavista ohjeista</li>
+  <li>voi nimetä työnaikaisen sähköturvallisuuden valvojan (STV)</li>
+</ul>
+
+<p><strong>Käytön johtaja</strong> vastaa sähkölaitteiston käytön turvallisuudesta ja käyttötoimenpiteiden asianmukaisesta toteutuksesta. Hänen tehtävänään on varmistaa, että sähkölaitteistoa käytetään, huolletaan ja valvotaan turvallisesti.</p>
+
+<ul>
+  <li>vastaa sähkölaitteiston käytön turvallisuudesta</li>
+  <li>huolehtii käyttötoimenpiteiden turvallisesta järjestämisestä</li>
+  <li>voi nimetä työnaikaisen sähköturvallisuuden valvojan (STV) käyttötoimenpiteisiin liittyvissä töissä</li>
+  <li>valvoo, että laitteiston käyttöön ja kunnossapitoon liittyvät työt tehdään turvallisesti</li>
+</ul>
+
+<p><strong>Yhteenveto:</strong> sähkötöiden johtaja vastaa ensisijaisesti sähkötöiden turvallisesta toteuttamisesta, kun taas käytön johtaja vastaa sähkölaitteiston käytön ja käyttötoimenpiteiden turvallisuudesta.</p>
+      
       <p><strong>Työnaikainen sähköturvallisuuden valvoja (STV)</strong> on nimettävä sähkötyökohteeseen, kun työhön liittyy sähköiskun tai valokaaren vaara tai kun laitteisto voidaan kytkeä jännitteiseksi.</p>
 
 <p>STV vastaa siitä, että työ suoritetaan turvallisesti ja sovittuja sähköturvallisuusmenettelyjä noudattaen.</p>
