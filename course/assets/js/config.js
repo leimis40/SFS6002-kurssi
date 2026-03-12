@@ -22,22 +22,18 @@ const COURSE = {
 
   <p>
     Koulutus on tarkoitettu henkilöille, joiden työtehtäviin liittyy sähkötöitä, sähkölaitteistojen käyttöä, valvontaa,
-    työnjohtoa tai muuta sähkötyöturvallisuuden tuntemusta edellyttävää toimintaa. Koulutuksen sisältö, laajuus ja toteutustapa
-    määräytyvät työtehtävien vaativuuden ja osallistujien aiemman osaamisen perusteella.
+    työnjohtoa tai muuta sähkötyöturvallisuuden tuntemusta edellyttävää toimintaa.
   </p>
 
   <p>
     Sähkötyöturvallisuuskoulutusta tulee ylläpitää säännöllisesti. Ylläpitokoulutus on suositeltavaa järjestää esimerkiksi vuosittain,
     ja koulutusten väli saa kuitenkin olla enintään viisi vuotta. Jos työtehtävissä, työmenetelmissä, yrityksen työjärjestelyissä
     tai sähkötyöturvallisuuteen liittyvissä säädöksissä ja standardeissa tapahtuu olennaisia muutoksia, koulutus on suositeltavaa
-    järjestää viipymättä.
+    järjestää viipymättä. Uusin SFS 6002 sähkötyöturvallisuusstandardi on vuoden 2025 painos. Tämän koulutuksen laajuus vastaa viiden vuoden koulutusväliä. 
+    Kunkin organisaation tulee harkita siirtymistä tiheämpään koulutusväliin. Tuolloin koulutus voi olla lyhyempi.
   </p>
 
-  <p>
-    Koulutus voidaan toteuttaa yrityksen sisäisenä koulutuksena, ulkopuolisen palveluntarjoajan järjestämänä tai verkkokoulutuksena.
-    Koulutuksessa saatujen tietojen omaksuminen tulee varmistaa esimerkiksi kokeella, näyttökokeella tai muulla soveltuvalla tavalla.
-    Hyväksytysti suoritetusta koulutuksesta voidaan antaa todistus.
-  </p>
+ 
 
   <p><strong>Tällä kurssilla käsitellään muun muassa seuraavia aiheita:</strong></p>
   <ul>
@@ -63,6 +59,11 @@ const COURSE = {
     Työnantajan sekä työnjohdon kirjallisten sähkötyöturvallisuusohjeiden ja standardin SFS 6002 mukaisten toimintatapojen
     tulee olla jatkuvasti työntekijöiden käytettävissä. Tämän koulutuksen tarkoituksena on tukea näiden periaatteiden käytännön soveltamista jokapäiväisessä työssä.
   </p>
+<p>
+Kurssin lopuksi on lyhyt tentti jolla varmistetaan kurssin tavoitteiden täyttyminen. Tästä koulutuksesta saa kurssin päätyttyä valitsemaansa sähköpostiin (ilmoitetaan lopuksi) kurssitodistuksen.
+Erillistä korttia ei tarvita. Todistuksella voi osoittaa sen, että kurssi on käyty.
+</p>
+  
 <img src="assets/images/kurssin_tavoite_ja_rakenne.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
         
