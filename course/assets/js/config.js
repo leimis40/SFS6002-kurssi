@@ -364,15 +364,51 @@ jotta mahdolliset vaaratekijät voidaan tunnistaa ja hallita.</p>
 poistaa vaara tai eristää se, sillä pelkkä henkilönsuojainten käyttö ei yksin riitä ehkäisemään onnettomuuksia.</p>
 
 <p>Jos työ joudutaan tekemään jännitteisenä ja siihen liittyy valokaaren vaara, on työstä tehtävä 
-riskienarviointi ja valittava tilanteeseen riittävät suojavarusteet. Tämmöinen riski esiintyy syöskennellessä sähkökeskuksissa
+riskienarviointi ja valittava tilanteeseen riittävät suojavarusteet. Tämmöinen riski esiintyy työskennellessä sähkökeskuksissa
 joissa jännite! Valokaarivaara on jännitteisessä keskuksessa vaikka työ ei olisi jännitetyötä!</p>
 
-<ul>
-  <li>valokaaririskiä arvioidaan esimerkiksi nimellisjännitteen, oikosulkuvirran ja poiskytkentäajan perusteella</li>
-  <li>arvioinnin perusteella määritellään tarvittavat suojaimet ja turvalliset työmenetelmät</li>
-  <li>riskien arviointi tehdään aina ennen työn aloittamista</li>
-  <li>Uusi SFS 6002 standardi liite S sisältää lisätietoa valokaarelta suojautumisesta</li>
-</ul>
+<div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; width:70px;">#</th>
+        <th style="padding:12px; text-align:left;">Valokaaririskin arviointi</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">1</td>
+        <td style="padding:12px;">
+          valokaaririskiä arvioidaan esimerkiksi nimellisjännitteen, oikosulkuvirran ja poiskytkentäajan perusteella
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">2</td>
+        <td style="padding:12px;">
+          arvioinnin perusteella määritellään tarvittavat suojaimet ja turvalliset työmenetelmät
+        </td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">3</td>
+        <td style="padding:12px;">
+          riskien arviointi tehdään aina ennen työn aloittamista
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">4</td>
+        <td style="padding:12px;">
+          uusi SFS 6002 -standardi (liite S) sisältää lisätietoa valokaarelta suojautumisesta
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
 
 <p>Joissakin pienjännitetilanteissa erillistä valokaarienergian laskentaa ei vaadita, mutta riskit on silti
 arvioitava ja työn turvallisuus varmistettava ennen työn aloittamista.</p>
