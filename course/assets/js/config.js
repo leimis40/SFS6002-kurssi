@@ -13,12 +13,56 @@ const COURSE = {
       title: "1. Kurssin tavoite ja rakenne",
       audioSrc: "assets/audio/01.mp3",
       contentHtml: `
-        <p><strong>Täytä tähän oma sisältösi.</strong></p>
-        <p>Esim. kurssin tavoite, kenelle suunnattu, miten suoritus etenee.</p>
-        <ul>
-          <li>Ohje: kuuntele audio loppuun avataksesi seuraavan sivun.</li>
-          <li>Token-linkki on yrityskohtainen. Se yksilöi kurssitodistuksen.</li>
-        </ul>
+  <p><strong>Tervetuloa SFS 6002 -sähkötyöturvallisuuskurssille.</strong></p>
+
+  <p>
+    Tämän koulutuksen tavoitteena on ylläpitää ja vahvistaa osallistujan sähkötyöturvallisuuteen liittyvää osaamista
+    sekä varmistaa, että työssä noudatetaan turvallisia toimintatapoja, ajantasaista ohjeistusta ja sähkötyöturvallisuusstandardin periaatteita.
+  </p>
+
+  <p>
+    Koulutus on tarkoitettu henkilöille, joiden työtehtäviin liittyy sähkötöitä, sähkölaitteistojen käyttöä, valvontaa,
+    työnjohtoa tai muuta sähkötyöturvallisuuden tuntemusta edellyttävää toimintaa. Koulutuksen sisältö, laajuus ja toteutustapa
+    määräytyvät työtehtävien vaativuuden ja osallistujien aiemman osaamisen perusteella.
+  </p>
+
+  <p>
+    Sähkötyöturvallisuuskoulutusta tulee ylläpitää säännöllisesti. Ylläpitokoulutus on suositeltavaa järjestää esimerkiksi vuosittain,
+    ja koulutusten väli saa kuitenkin olla enintään viisi vuotta. Jos työtehtävissä, työmenetelmissä, yrityksen työjärjestelyissä
+    tai sähkötyöturvallisuuteen liittyvissä säädöksissä ja standardeissa tapahtuu olennaisia muutoksia, koulutus on suositeltavaa
+    järjestää viipymättä.
+  </p>
+
+  <p>
+    Koulutus voidaan toteuttaa yrityksen sisäisenä koulutuksena, ulkopuolisen palveluntarjoajan järjestämänä tai verkkokoulutuksena.
+    Koulutuksessa saatujen tietojen omaksuminen tulee varmistaa esimerkiksi kokeella, näyttökokeella tai muulla soveltuvalla tavalla.
+    Hyväksytysti suoritetusta koulutuksesta voidaan antaa todistus.
+  </p>
+
+  <p><strong>Tällä kurssilla käsitellään muun muassa seuraavia aiheita:</strong></p>
+  <ul>
+    <li>vastuut ja roolit sähkötyössä</li>
+    <li>riskien arviointi ja työn suunnittelu</li>
+    <li>sähkön vaarat ja niiltä suojautuminen</li>
+    <li>turvalliset työmenetelmät ja menettelyt</li>
+    <li>jännitteettömäksi tekeminen ja varmistaminen</li>
+    <li>työskentely jännitteen läheisyydessä</li>
+    <li>onnettomuustilanteet ja ensiapu</li>
+    <li>kertaus ja keskeiset muistilistat</li>
+  </ul>
+
+  <p><strong>Kurssin rakenne:</strong></p>
+  <ul>
+    <li>kurssi etenee vaiheittain sivu kerrallaan</li>
+    <li>jokaisella sivulla on oma sisältö ja aiheeseen liittyvä ohjaava kuva</li>
+    <li>seuraava sivu avautuu, kun olet kuunnellut audio-osuuden loppuun</li>
+    <li>kurssin lopussa siirryt todistuslomakkeelle, jonka perusteella kurssitodistus lähetetään sähköpostiin</li>
+  </ul>
+
+  <p>
+    Työnantajan sekä työnjohdon kirjallisten sähkötyöturvallisuusohjeiden ja standardin SFS 6002 mukaisten toimintatapojen
+    tulee olla jatkuvasti työntekijöiden käytettävissä. Tämän koulutuksen tarkoituksena on tukea näiden periaatteiden käytännön soveltamista jokapäiväisessä työssä.
+  </p>
 <img src="assets/images/kurssin_tavoite_ja_rakenne.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
         
