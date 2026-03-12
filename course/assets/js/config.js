@@ -466,7 +466,23 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
       id: "07",
       title: "7. Työskentely jännitteen läheisyydessä",
       audioSrc: "assets/audio/07.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (etäisyydet, suojaus, käytännöt).</p>
+      contentHtml: `
+
+      <p><strong>Työskentely jännitteen läheisyydessä</strong> edellyttää aina ennakkosuunnittelua, 
+      työalueen määrittelyä ja tarvittaessa alueen rajaamista esimerkiksi suojaamalla jännitteiset osat eristematolla. Jos koko laitteistoa ei ole tehty jännitteettömäksi, 
+      on jännitteiset ja jännitteettömät osat merkittävä selkeästi jotta ei tule virhetulkintoja.</p>
+
+<p>Työssä on noudatettava riittäviä vähimmäisetäisyyksiä jännitteisiin osiin. Tarvittaessa käytetään suojalevyjä, 
+    työskentelysuojia tai muita keinoja, joilla estetään tahaton kosketus ja ulottuminen jännitetyöalueelle.</p>
+
+<ul>
+  <li>työalue ja turvalliset etäisyydet määritellään ennen työn aloittamista</li>
+  <li>jännitteiset osat suojataan tai merkitään selvästi</li>
+  <li>pitkien työvälineiden, koneiden ja nostimien käyttö vaatii erityistä varovaisuutta</li>
+  <li>Huom. aina kun mahdollista on erittäin suositeltavaa tehdä työskentelykohde kokonaan jännitteettömäksi!</li>
+</ul>
+
+<p>Ilmajohtojen läheisyydessä on varmistettava, ettei mikään koneen, kuorman tai työvälineen osa ulotu liian lähelle jännitteisiä johtimia. Myös sähkötiloissa tehtävissä rakennus-, siivous- ja huoltotöissä on varmistettava riittävä opastus, valvonta ja turvalliset työmenetelmät.</p>
       
     <div style="max-width:900px; margin:24px auto; background:#fff; border:2px solid #333; padding:16px; box-sizing:border-box;">
   <svg viewBox="0 0 900 560" style="width:100%; height:auto; display:block;" xmlns="http://www.w3.org/2000/svg">
