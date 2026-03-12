@@ -19,6 +19,9 @@ const COURSE = {
           <li>Ohje: kuuntele audio loppuun avataksesi seuraavan sivun.</li>
           <li>Token-linkki on yrityskohtainen. Se yksilöi kurssitodistuksen.</li>
         </ul>
+<img src="assets/images/kurssin_tavoite_ja_rakenne.png" 
+         style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
+        
       `,
     },
     {
