@@ -69,7 +69,23 @@ Erillistä korttia ei tarvita. Todistuksella voi osoittaa sen, että kurssi on k
       id: "02",
       title: "2. Vastuut ja roolit sähkötyössä",
       audioSrc: "assets/audio/02.mp3",
-      contentHtml: `<p>Lisää tähän oma sisältösi (roolit, vastuut, toimintatavat).</p>`,
+      contentHtml: `
+      <p><strong>Työnaikainen sähköturvallisuuden valvoja (STV)</strong> on nimettävä sähkötyökohteeseen, kun työhön liittyy sähköiskun tai valokaaren vaara tai kun laitteisto voidaan kytkeä jännitteiseksi.</p>
+
+<p>STV vastaa siitä, että työ suoritetaan turvallisesti ja sovittuja sähköturvallisuusmenettelyjä noudattaen.</p>
+
+<ul>
+  <li>Työkohteessa on aina oltava nimetty STV.</li>
+  <li>Työntekijöiden tulee tietää, kuka toimii valvojana.</li>
+  <li>Valvojan tulee tietää, kenen työtä hän valvoo.</li>
+</ul>
+
+<p>Jos valvoja poistuu työkohteesta eikä voi hoitaa tehtäväänsä, on nimettävä uusi STV ja ilmoitettava siitä työryhmälle.</p>
+
+<p>Työnaikaisen sähköturvallisuuden valvojan voi nimetä esimerkiksi sähkötöiden johtaja, käytön johtaja tai työnantaja. Nimeäminen suositellaan tehtäväksi kirjallisesti.</p>
+
+<p>Yksin työskentelevä sähköalan ammattihenkilö vastaa työnaikaisesta sähköturvallisuuden valvonnasta ilman erillistä nimeämistä.</p>
+      `,
     },
     {
       id: "03",
