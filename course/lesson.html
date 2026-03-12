@@ -116,17 +116,16 @@ nextBtn.style.opacity = "0.5";
   }
 });
       }
+audio.addEventListener("ended", () => {
+  unlockNext();
+});
 
-      audio.addEventListener("ended", () => {
-        unlockNext();
-      });
-
-      // Optional: show hint if user pauses early
-      audio.addEventListener("pause", () => {
-        if (!audio.ended && getProgress(token) < step) {
-          document.getElementById("audioHint").textContent = "Jatka toistoa avataksesi seuraavan sivun.";
-        }
-      });
+document.addEventListener("keydown", (e) => {
+  if (e.shiftKey && e.key.toLowerCase() === "d" && isDevSkipAudioEnabled()) {
+    unlockNext();
+  }
+});
+     
     }
   </script>
 </body>
