@@ -242,7 +242,7 @@ tehdään turvallisesti koko työn ajan.</p>
 
 <ul>
   <li>työskentely jännitteettömänä</li>
-  <li>jännitetyö</li>
+  <li>jännitetyö (vaatii oman koulutuksen)</li>
   <li>työskentely jännitetyöalueen ulkopuolella mutta kuitenkin lähialueella (lähityö)</li>
 </ul>
 
