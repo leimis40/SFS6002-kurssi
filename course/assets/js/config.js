@@ -55,10 +55,6 @@ const COURSE = {
     <li>kurssin lopussa siirryt todistuslomakkeelle, jonka perusteella kurssitodistus lähetetään sähköpostiin</li>
   </ul>
 
-  <p>
-    Työnantajan sekä työnjohdon kirjallisten sähkötyöturvallisuusohjeiden ja standardin SFS 6002 mukaisten toimintatapojen
-    tulee olla jatkuvasti työntekijöiden käytettävissä. Tämän koulutuksen tarkoituksena on tukea näiden periaatteiden käytännön soveltamista jokapäiväisessä työssä.
-  </p>
 <p>
 Kurssin lopuksi on lyhyt tentti jolla varmistetaan kurssin tavoitteiden täyttyminen. Tästä koulutuksesta saa kurssin päätyttyä valitsemaansa sähköpostiin (ilmoitetaan lopuksi) kurssitodistuksen.
 Erillistä korttia ei tarvita. Todistuksella voi osoittaa sen, että kurssi on käyty.
