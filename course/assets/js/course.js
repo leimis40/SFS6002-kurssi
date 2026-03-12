@@ -42,3 +42,15 @@ function ensureWithinBounds(step) {
   if (step > max) return max;
   return step;
 }
+let devSkipAudio = false;
+
+document.addEventListener("keydown", function (e) {
+  if (e.shiftKey && e.key.toLowerCase() === "d") {
+    devSkipAudio = true;
+    console.log("Dev audio skip enabled");
+  }
+});
+
+function isDevSkipAudioEnabled() {
+  return devSkipAudio;
+}
