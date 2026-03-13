@@ -480,6 +480,29 @@ id: "05",
       audioSrc: "assets/audio/02.mp3",
       contentHtml: `
 
+      <p><strong>Perussuojausmenetelmien tarkoitus</strong> on estää jännitteisten osien koskettaminen normaalissa käyttötilanteessa. 
+Perussuojaus ei yksin riitä sähköiskulta suojautumiseen, vaan sen lisäksi tarvitaan myös vikasuojauksen toteuttaminen.</p>
+
+<p><strong>Jännitteisten osien peruseristys</strong> tarkoittaa sitä, että jännitteiset osat peitetään kokonaan eristyksellä, 
+joka voidaan poistaa vain rikkomalla. Eristyksen tehtävänä on estää tahaton kosketus jännitteisiin osiin.</p>
+
+<p><strong>Suojukset ja kotelointi</strong> ovat toinen tärkeä perussuojausmenetelmä. 
+Jännitteiset osat on sijoitettava kotelon tai suojuksen taakse siten, että suojaus on vähintään 
+kotelointiluokan <strong>IP2X tai IPXXB</strong> mukainen. Helposti kosketeltavilla yläpinnoilla vaaditaan yleensä 
+vähintään <strong>IP4X tai IPXXD</strong> suojaus.</p>
+
+<ul>
+  <li>suojusten ja koteloiden tulee olla lujasti kiinnitettyjä ja riittävän kestäviä</li>
+  <li>suojuksia tai koteloita saa avata yleensä vain avaimella tai työkalulla</li>
+  <li>jos suojan poistaminen on tarpeen, jännitteiset osat on tehtävä turvallisiksi ennen pääsyä niiden luo</li>
+</ul>
+
+<p>Jos kotelon sisällä voi esiintyä vaarallisia sähkövarauksia, kuten kondensaattoreissa, asiasta on 
+varoittava selkeästi esimerkiksi varoituskilvellä.</p>
+
+<p><strong>Muista:</strong> perussuojauksen tavoitteena on estää koskettaminen, mutta turvallinen sähkölaitteisto edellyttää 
+aina myös muuta suojausta, kuten vikasuojauksen toteuttamista.</p>
+
           `,
     },
     {
