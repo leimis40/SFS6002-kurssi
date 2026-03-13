@@ -1016,48 +1016,62 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
     <thead>
       <tr style="background:#1d4ed8; color:#fff;">
         <th style="padding:12px; width:60px;">#</th>
-        <th style="padding:12px; text-align:left;">Toimintaohje</th>
+        <th style="padding:12px; text-align:left;">Sähkötapaturmien ensiapu</th>
       </tr>
     </thead>
     <tbody>
       <tr style="background:#f8fbff;">
         <td style="padding:12px; font-weight:bold;">1</td>
         <td style="padding:12px;">
-          <strong>Varmista oma turvallisuutesi.</strong> Älä koske uhriin ennen kuin olet varma,
-          että jännite on poistettu tai alue on turvallinen.
+          <strong>Ensiapukoulutus kuuluu sähköalan töihin.</strong> Sähkötöihin osallistuville henkilöille on annettava ensiapukoulutus, joka sisältää vähintään palovammojen, ruhje- ja viiltohaavojen ensiavun sekä painelu- ja puhalluselvytyksen harjoittelun. Ensiapuvalmiuksia on pidettävä yllä jatkuvasti.
         </td>
       </tr>
       <tr>
         <td style="padding:12px; font-weight:bold;">2</td>
         <td style="padding:12px;">
-          <strong>Poista jännite nopeasti.</strong> Katkaise virta, irrota pistotulppa tai erottele
-          syöttö turvallisella tavalla.
+          <strong>Ensiapuohjeiden tulee olla helposti saatavilla.</strong> Ensiapuohjetauluja suositellaan sijoitettavaksi sähkölaitekorjaamoihin, laboratorioihin, kojeistotiloihin ja henkilökunnan tiloihin. Sähkötapaturmien ensiapuohjeet löytyvät myös Sähkötietokortista ST 13.05.
         </td>
       </tr>
       <tr style="background:#f8fbff;">
         <td style="padding:12px; font-weight:bold;">3</td>
         <td style="padding:12px;">
-          <strong>Hälytä apua numerosta 112.</strong> Kerro mitä on tapahtunut, tarkka sijainti
-          ja onko uhri tajuissaan ja hengittääkö hän normaalisti.
+          <strong>Tee nopea tilannearvio ja poista vaara.</strong> Katkaise virta turvallisesti kytkimellä, pistotulpalla tai muulla tavalla. Ellei virtaa saada heti poikki, irrota loukkaantunut eristävällä välineellä. Älä koskaan käytä kosteaa tai metallista esinettä. Suurjännitetapaturmassa pelastustoimet voi aloittaa vasta, kun sähköalan ammattihenkilö on katkaissut virran.
         </td>
       </tr>
       <tr>
         <td style="padding:12px; font-weight:bold;">4</td>
         <td style="padding:12px;">
-          <strong>Tarkista tajunta ja hengitys.</strong> Jos henkilö ei hengitä normaalisti,
-          aloita välittömästi paineluelvytys.
+          <strong>Tarkista tila ja hälytä apua numerosta 112.</strong> Selvitä, onko loukkaantunut hereillä ja hengittääkö hän normaalisti. Jos henkilö ei reagoi, hälytä apua heti ja noudata hätäkeskuksen ohjeita.
         </td>
       </tr>
       <tr style="background:#f8fbff;">
         <td style="padding:12px; font-weight:bold;">5</td>
         <td style="padding:12px;">
-          <strong>Anna ensiapua ja seuraa uhria.</strong> Hoida näkyvät palovammat, pidä uhri levossa
-          ja odota ammattiapua.
+          <strong>Aloita ensiapu tarvittaessa.</strong> Jos henkilö hengittää normaalisti, käännä hänet kylkiasentoon ja seuraa hengitystä. Jos hengitys ei ole normaalia, aloita painelu-puhalluselvytys rytmillä <strong>30 painelua : 2 puhallusta</strong> ja jatka, kunnes ammattiapu saapuu, hengitys palautuu tai et enää jaksa elvyttää.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">6</td>
+        <td style="padding:12px;">
+          <strong>Huomioi sokki.</strong> Sokkivaikutus voi ilmetä sähkötapaturmassa nopeasti. Aseta autettava makuulle, nosta jalat koholle, pidä hänet lämpimänä ja rauhoita tilannetta. Älä jätä sokkipotilasta yksin, ellei se ole välttämätöntä avun hankkimiseksi.
+        </td>
+      </tr>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">7</td>
+        <td style="padding:12px;">
+          <strong>Palovammat ja valokaaren vaikutukset on otettava vakavasti.</strong> Sähkötapaturmassa voi syntyä sekä näkyviä että sisäisiä palovammoja. Palovammat hoidetaan vasta elintoimintojen turvaamisen jälkeen. Valokaari voi myös vahingoittaa silmiä; tällöin kylmä kääre voi helpottaa kipua ja tarvittaessa on hakeuduttava jatkohoitoon.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:12px; font-weight:bold;">8</td>
+        <td style="padding:12px;">
+          <strong>Ensiapu perustuu yhteistyöhön.</strong> Hätäkeskuksen, ensiapua antavan henkilön ja ammattiauttajien yhteistyö on tärkeää. Ensiaputaitoja, erityisesti elvytystä, on harjoiteltava säännöllisesti.
         </td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 <div style="margin:20px 0; padding:16px; background:#f8fbff; border:1px solid #d9e2f0; border-radius:10px;">
   <p style="margin:0 0 10px 0; font-weight:bold;">🫀 Elvytyksen perusohje</p>
