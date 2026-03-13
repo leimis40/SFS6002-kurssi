@@ -67,23 +67,33 @@ const COURSE = {
         <td style="padding:12px;">turvalliset työmenetelmät ja menettelyt</td>
       </tr>
 
-      <tr style="background:#f8fbff;">
+       <tr>
         <td style="padding:12px; font-weight:bold;">5</td>
-        <td style="padding:12px;">jännitteettömäksi tekeminen ja varmistaminen</td>
+        <td style="padding:12px;">Perussuojaus menetelmät</td>
       </tr>
 
-      <tr>
+       <tr>
         <td style="padding:12px; font-weight:bold;">6</td>
-        <td style="padding:12px;">työskentely jännitteen läheisyydessä</td>
+        <td style="padding:12px;">Vikasuojaus</td>
       </tr>
 
       <tr style="background:#f8fbff;">
         <td style="padding:12px; font-weight:bold;">7</td>
-        <td style="padding:12px;">onnettomuustilanteet ja ensiapu</td>
+        <td style="padding:12px;">jännitteettömäksi tekeminen ja varmistaminen</td>
       </tr>
 
       <tr>
         <td style="padding:12px; font-weight:bold;">8</td>
+        <td style="padding:12px;">työskentely jännitteen läheisyydessä</td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">9</td>
+        <td style="padding:12px;">onnettomuustilanteet ja ensiapu</td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">10</td>
         <td style="padding:12px;">kertaus ja keskeiset muistilistat</td>
       </tr>
       
