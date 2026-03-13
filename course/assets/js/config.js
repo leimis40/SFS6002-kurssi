@@ -69,12 +69,12 @@ const COURSE = {
 
        <tr>
         <td style="padding:12px; font-weight:bold;">5</td>
-        <td style="padding:12px;">Perussuojaus menetelmät</td>
+        <td style="padding:12px;">perussuojaus menetelmät</td>
       </tr>
 
        <tr>
         <td style="padding:12px; font-weight:bold;">6</td>
-        <td style="padding:12px;">Vikasuojaus</td>
+        <td style="padding:12px;">vikasuojaus</td>
       </tr>
 
       <tr style="background:#f8fbff;">
