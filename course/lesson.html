@@ -18,7 +18,7 @@
     <section class="card">
       <h2>Audio</h2>
       <p class="small">Kuuntele audio loppuun avataksesi seuraavan sivun.</p>
-      <audio id="audio" controls controlsList="nodownload noplaybackrate" preload="metadata">
+     <audio id="audio" controls preload="metadata">
         <source id="audioSrc" src="" type="audio/mpeg" />
         Selaimesi ei tue audio-toistoa.
       </audio>
@@ -71,30 +71,28 @@
 
       // Estetään audion eteenpäin kelaaminen
 let maxPlayedTime = 0;
-let isSeekingInternally = false;
-      let hasStartedPlaying = false;
-
-audio.addEventListener("play", () => {
-  hasStartedPlaying = true;
-});
+let isBlockingSeek = false;
 
 audio.addEventListener("timeupdate", () => {
-  if (!isSeekingInternally) {
+  if (!audio.seeking && !isBlockingSeek) {
     maxPlayedTime = Math.max(maxPlayedTime, audio.currentTime);
   }
 });
 
 audio.addEventListener("seeking", () => {
-  if (isSeekingInternally) return;
+  if (isBlockingSeek) return;
 
-  // Ei estetä selaimen omia aloitussiirtymiä ennen kuin toisto on oikeasti alkanut
-  if (!hasStartedPlaying) return;
+  if (audio.currentTime > maxPlayedTime + 0.3) {
+    isBlockingSeek = true;
+    const wasPlaying = !audio.paused;
 
-  // Sallitaan pieni heitto, mutta estetään eteenpäin hyppääminen
-  if (audio.currentTime > maxPlayedTime + 0.5) {
-    isSeekingInternally = true;
     audio.currentTime = maxPlayedTime;
-    isSeekingInternally = false;
+
+    if (wasPlaying) {
+      audio.play().catch(() => {});
+    }
+
+    isBlockingSeek = false;
   }
 });
 
