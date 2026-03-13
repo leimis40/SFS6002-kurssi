@@ -477,7 +477,7 @@ turvallisia työmenetelmiä.</p>
 
 id: "05",
       title: "5. Vastuut ja roolit sähkötyössä",
-      audioSrc: "assets/audio/02.mp3",
+      audioSrc: "assets/audio/05.mp3",
       contentHtml: `
 
       <p><strong>Perussuojausmenetelmien tarkoitus</strong> on estää jännitteisten osien koskettaminen normaalissa käyttötilanteessa. 
@@ -510,7 +510,7 @@ aina myös muuta suojausta, kuten vikasuojauksen toteuttamista.</p>
 
       id: "06",
       title: "6. Vastuut ja roolit sähkötyössä",
-      audioSrc: "assets/audio/02.mp3",
+      audioSrc: "assets/audio/06.mp3",
       contentHtml: `
 
           `,
@@ -520,7 +520,7 @@ aina myös muuta suojausta, kuten vikasuojauksen toteuttamista.</p>
       
       id: "07",
       title: "7. Turvalliset työmenetelmät ja menettelyt",
-      audioSrc: "assets/audio/05.mp3",
+      audioSrc: "assets/audio/07.mp3",
       contentHtml: `
 
       <p><strong>Turvalliset työmenetelmät</strong> ovat sähkötöiden keskeinen osa riskien hallintaa. 
@@ -706,7 +706,7 @@ noudatetaan ja että mahdollisiin vaaratilanteisiin reagoidaan välittömästi.<
     {
       id: "08",
       title: "8. Jännitteettömäksi tekeminen ja varmistaminen",
-      audioSrc: "assets/audio/06.mp3",
+      audioSrc: "assets/audio/08.mp3",
       contentHtml: `
 
       <p><strong>Työskentely jännitteettömänä</strong> on sähkötöiden turvallisin työmenetelmä. 
@@ -765,7 +765,7 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
     {
       id: "09",
       title: "9. Työskentely jännitteen läheisyydessä",
-      audioSrc: "assets/audio/07.mp3",
+      audioSrc: "assets/audio/09.mp3",
       contentHtml: `
 
       <p><strong>Työskentely jännitteen läheisyydessä</strong> edellyttää aina ennakkosuunnittelua, 
@@ -901,7 +901,7 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
     {
       id: "10",
       title: "10. Onnettomuustilanteet ja ensiapu",
-      audioSrc: "assets/audio/08.mp3",
+      audioSrc: "assets/audio/10.mp3",
       contentHtml: `
 
       <div style="margin:20px 0; padding:16px; background:#fff4f4; border:1px solid #f3b3b3; border-radius:10px;">
@@ -993,7 +993,7 @@ vaikka oireet näyttäisivät aluksi lieviltä. Sähköisku voi aiheuttaa myös 
     {
       id: "11",
       title: "11. Kertaus ja keskeiset muistilistat",
-      audioSrc: "assets/audio/09.mp3",
+      audioSrc: "assets/audio/11.mp3",
       contentHtml: `
 
       <div style="margin:20px 0; padding:16px; background:#f8fbff; border:1px solid #d9e2f0; border-radius:10px;">
