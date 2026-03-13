@@ -504,6 +504,13 @@ varoittava selkeästi esimerkiksi varoituskilvellä.</p>
 <p><strong>Muista:</strong> perussuojauksen tavoitteena on estää koskettaminen, mutta turvallinen sähkölaitteisto edellyttää 
 aina myös muuta suojausta, kuten vikasuojauksen toteuttamista.</p>
 
+<p><strong>Tarkennuksena:</strong> Alla olevan kuvan MK-tyyppisen johdon eriste on peruseriste. Sellaisenaan se ei saa olla maallikon kosketeltavissa paitsi
+jos kyse on esimerkiksi pienoisjännitteestä. Verkkojännitteillä oltava aina myös joku vikasuojaus. Esimerkiksi MMJ-kaapeli joka kaksoiseristetty 
+(useita verkkojännitteen kestäviä eristekerroksia päällekkäin).</p>
+
+<img src="assets/images/mk.png" 
+         style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
+
           `,
     },
     {
