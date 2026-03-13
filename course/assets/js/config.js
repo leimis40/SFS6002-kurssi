@@ -521,6 +521,93 @@ jos kyse on esimerkiksi pienoisjännitteestä. Verkkojännitteillä oltava aina 
       audioSrc: "assets/audio/06.mp3",
       contentHtml: `
 
+      <div style="margin:20px 0; padding:16px; background:#f8fbff; border:1px solid #d9e2f0; border-radius:10px;">
+  <p style="margin:0; font-size:18px; font-weight:bold;">Vikasuojaus osana sähköiskulta suojautumista</p>
+  <p style="margin:10px 0 0 0;">
+    Sähköiskulta suojautuminen edellyttää yleensä sekä <strong>perussuojausta</strong> että <strong>vikasuojausta</strong>.
+    Perussuojaus estää jännitteisten osien koskettamisen normaalitilanteessa, ja vikasuojaus suojaa tilanteessa,
+    jossa laitteistoon tulee vika.
+  </p>
+</div>
+
+<p><strong>Tärkeimmät vikasuojaukseen liittyvät suojausmenetelmät ovat:</strong></p>
+
+<div style="margin:20px 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:collapse; font-size:16px; line-height:1.5; background:#fff; border:1px solid #d9e2f0; border-radius:10px; overflow:hidden;">
+    <thead>
+      <tr style="background:#1d4ed8; color:#fff;">
+        <th style="padding:12px; width:80px;">#</th>
+        <th style="padding:12px; text-align:left;">Suojausmenetelmä</th>
+        <th style="padding:12px; text-align:left;">Keskeinen sisältö</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">1</td>
+        <td style="padding:12px;"><strong>Syötön automaattinen poiskytkentä</strong></td>
+        <td style="padding:12px;">
+          Yleisin suojausmenetelmä. Perussuojaus toteutetaan eristyksellä tai koteloinnilla, ja vikasuojaus
+          toteutetaan suojamaadoituksella, potentiaalintasauksella ja automaattisella poiskytkennällä.
+          Vikavirtasuojaa käytetään usein lisäsuojauksena.
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">2</td>
+        <td style="padding:12px;"><strong>Kaksoiseristys tai vahvistettu eristys</strong></td>
+        <td style="padding:12px;">
+          Suojaus perustuu siihen, että laitteessa on joko kaksinkertainen eristys tai vahvistettu eristys.
+          Tällöin vaarallinen jännite ei pääse laitteen kosketeltaviin osiin yksittäisessä vikatilanteessa.
+        </td>
+      </tr>
+
+      <tr style="background:#f8fbff;">
+        <td style="padding:12px; font-weight:bold;">3</td>
+        <td style="padding:12px;"><strong>Sähköinen erotus</strong></td>
+        <td style="padding:12px;">
+          Virtapiiri erotetaan muista piireistä ja maasta siten, että vikavirran kulkureitti estyy.
+          Menetelmää käytetään yleensä yhden laitteen syöttämiseen erotetusta, maadoittamattomasta lähteestä.
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:12px; font-weight:bold;">4</td>
+        <td style="padding:12px;"><strong>Pienoisjännite (SELV ja PELV)</strong></td>
+        <td style="padding:12px;">
+          Suojaus perustuu turvallisen alhaiseen jännitteeseen. SELV-järjestelmä on erotettu maasta,
+          kun taas PELV-järjestelmä voidaan maadoittaa. Pienoisjännite pienentää sähköiskun vaaraa
+          merkittävästi.
+        </td>
+      </tr>
+
+      <tr style="background:#fffbea;">
+        <td style="padding:12px; font-weight:bold;">5</td>
+        <td style="padding:12px;"><strong>Lisäsuojaus</strong></td>
+        <td style="padding:12px;">
+          Lisäsuojauksena käytetään esimerkiksi enintään 30 mA vikavirtasuojaa tai suojaavaa
+          lisäpotentiaalintasausta. Lisäsuojaus ei korvaa varsinaista suojausmenetelmää, vaan täydentää sitä.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p><strong>Syötön automaattinen poiskytkentä</strong> on käytännössä yleisin suojausmenetelmä. Siinä
+jännitteelle alttiit osat suojamaadoitetaan, ja vian sattuessa suojalaite katkaisee syötön riittävän nopeasti.
+Toteutuksessa käytetään esimerkiksi ylivirtasuojia tai vikavirtasuojia järjestelmästä riippuen.</p>
+
+<p><strong>TN-, TT- ja IT-järjestelmät</strong> eroavat toisistaan maadoituksen ja vikasuojauksen toteutustavan osalta.
+Näissä järjestelmissä suojaus perustuu siihen, että vikatilanne havaitaan ja vaarallinen kosketusjännite
+poistuu riittävän nopeasti.</p>
+
+<div style="margin:20px 0; padding:16px; background:#fff4f4; border:1px solid #f3b3b3; border-radius:10px;">
+  <p style="margin:0; font-weight:bold; color:#b91c1c;">Muista</p>
+  <p style="margin:10px 0 0 0;">
+    Vikavirtasuoja on tärkeä lisäsuoja, mutta sitä ei saa käyttää ainoana suojausmenetelmänä.
+    Turvallinen sähköasennus edellyttää aina valitun suojausmenetelmän mukaista perussuojausta ja vikasuojausta yhdessä.
+  </p>
+</div>
+
           `,
     },
     {
