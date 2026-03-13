@@ -464,8 +464,29 @@ turvallisia työmenetelmiä.</p>
       `,
     },
     {
-      id: "05",
-      title: "5. Turvalliset työmenetelmät ja menettelyt",
+
+id: "05",
+      title: "5. Vastuut ja roolit sähkötyössä",
+      audioSrc: "assets/audio/02.mp3",
+      contentHtml: `
+
+          `,
+    },
+    {
+
+
+      id: "06",
+      title: "6. Vastuut ja roolit sähkötyössä",
+      audioSrc: "assets/audio/02.mp3",
+      contentHtml: `
+
+          `,
+    },
+    {
+
+      
+      id: "07",
+      title: "7. Turvalliset työmenetelmät ja menettelyt",
       audioSrc: "assets/audio/05.mp3",
       contentHtml: `
 
@@ -650,8 +671,8 @@ noudatetaan ja että mahdollisiin vaaratilanteisiin reagoidaan välittömästi.<
       `,
     },
     {
-      id: "06",
-      title: "6. Jännitteettömäksi tekeminen ja varmistaminen",
+      id: "08",
+      title: "8. Jännitteettömäksi tekeminen ja varmistaminen",
       audioSrc: "assets/audio/06.mp3",
       contentHtml: `
 
@@ -709,8 +730,8 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
       `,
     },
     {
-      id: "07",
-      title: "7. Työskentely jännitteen läheisyydessä",
+      id: "09",
+      title: "9. Työskentely jännitteen läheisyydessä",
       audioSrc: "assets/audio/07.mp3",
       contentHtml: `
 
@@ -845,8 +866,8 @@ poistetaan hallitusti. Vasta tämän jälkeen laitteisto voidaan kytkeä takaisi
       `,
     },
     {
-      id: "08",
-      title: "8. Onnettomuustilanteet ja ensiapu",
+      id: "10",
+      title: "10. Onnettomuustilanteet ja ensiapu",
       audioSrc: "assets/audio/08.mp3",
       contentHtml: `
 
@@ -937,8 +958,8 @@ vaikka oireet näyttäisivät aluksi lieviltä. Sähköisku voi aiheuttaa myös 
       `,
     },
     {
-      id: "09",
-      title: "9. Kertaus ja keskeiset muistilistat",
+      id: "11",
+      title: "11. Kertaus ja keskeiset muistilistat",
       audioSrc: "assets/audio/09.mp3",
       contentHtml: `
 
@@ -1048,8 +1069,8 @@ vaikka oireet näyttäisivät aluksi lieviltä. Sähköisku voi aiheuttaa myös 
       `,
     },
     {
-      id: "10",
-      title: "10. Kurssin päätös ja todistus",
+      id: "12",
+      title: "12. Kurssin päätös ja todistus",
       audioSrc: "assets/audio/10.mp3",
       contentHtml: `
         <div style="max-width:800px; margin:30px auto; font-family:Arial, sans-serif;">
