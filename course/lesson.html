@@ -18,7 +18,7 @@
     <section class="card">
       <h2>Audio</h2>
       <p class="small">Kuuntele audio loppuun avataksesi seuraavan sivun.</p>
-      <audio id="audio" controls preload="metadata">
+      <audio id="audio" controls controlsList="nodownload noplaybackrate" preload="metadata">
         <source id="audioSrc" src="" type="audio/mpeg" />
         Selaimesi ei tue audio-toistoa.
       </audio>
@@ -69,6 +69,27 @@
       document.getElementById("audioSrc").src = lesson.audioSrc;
       audio.load();
 
+      // Estetään audion eteenpäin kelaaminen
+let maxPlayedTime = 0;
+let isSeekingInternally = false;
+
+audio.addEventListener("timeupdate", () => {
+  if (!isSeekingInternally) {
+    maxPlayedTime = Math.max(maxPlayedTime, audio.currentTime);
+  }
+});
+
+audio.addEventListener("seeking", () => {
+  if (isSeekingInternally) return;
+
+  // Sallitaan pieni heitto, mutta estetään eteenpäin hyppääminen
+  if (audio.currentTime > maxPlayedTime + 0.3) {
+    isSeekingInternally = true;
+    audio.currentTime = maxPlayedTime;
+    isSeekingInternally = false;
+  }
+});
+
       // Progress & gating
       const progress = getProgress(token);
       const total = COURSE.lessons.length;
@@ -117,6 +138,7 @@ nextBtn.style.opacity = "0.5";
 });
       }
 audio.addEventListener("ended", () => {
+  maxPlayedTime = audio.duration || maxPlayedTime;
   unlockNext();
 });
 
