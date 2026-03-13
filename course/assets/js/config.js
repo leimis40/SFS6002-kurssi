@@ -476,7 +476,7 @@ turvallisia työmenetelmiä.</p>
     {
 
 id: "05",
-      title: "5. Vastuut ja roolit sähkötyössä",
+      title: "5. Perussuojausmenetelmät",
       audioSrc: "assets/audio/05.mp3",
       contentHtml: `
 
@@ -489,7 +489,8 @@ joka voidaan poistaa vain rikkomalla. Eristyksen tehtävänä on estää tahaton
 <p><strong>Suojukset ja kotelointi</strong> ovat toinen tärkeä perussuojausmenetelmä. 
 Jännitteiset osat on sijoitettava kotelon tai suojuksen taakse siten, että suojaus on vähintään 
 kotelointiluokan <strong>IP2X tai IPXXB</strong> mukainen. Helposti kosketeltavilla yläpinnoilla vaaditaan yleensä 
-vähintään <strong>IP4X tai IPXXD</strong> suojaus.</p>
+vähintään <strong>IP4X tai IPXXD</strong> suojaus. Vaatimus ei koske laitestandardien mukaisia laitteita, 
+joille on annettu erilaiset vaatimukset</p>
 
 <ul>
   <li>suojusten ja koteloiden tulee olla lujasti kiinnitettyjä ja riittävän kestäviä</li>
@@ -509,7 +510,7 @@ aina myös muuta suojausta, kuten vikasuojauksen toteuttamista.</p>
 
 
       id: "06",
-      title: "6. Vastuut ja roolit sähkötyössä",
+      title: "6. Vikasuojaus",
       audioSrc: "assets/audio/06.mp3",
       contentHtml: `
 
