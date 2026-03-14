@@ -1,7 +1,7 @@
 // course/assets/js/config.js
 // Muuta nämä omiksi:
 const COURSE = {
-  name: "Sähkötyöturvallisuuskurssi (SFS 6002) – kurssipohja",
+  name: "Sähkötyöturvallisuuskurssi (SFS 6002)",
   // Tally linkki todistuslomakkeelle (vaihda kun valmis)
   certificateFormUrl: "https://tally.so/r/PdAaZb",
   // Jos haluat palata pääsivustolle kurssin jälkeen
