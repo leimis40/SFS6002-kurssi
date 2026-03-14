@@ -142,6 +142,10 @@ const COURSE = {
 Kurssin lopuksi on lyhyt tentti jolla varmistetaan kurssin tavoitteiden täyttyminen. Tästä koulutuksesta saa kurssin päätyttyä valitsemaansa sähköpostiin (ilmoitetaan lopuksi) kurssitodistuksen.
 Erillistä korttia ei tarvita. Todistuksella voi osoittaa sen, että kurssi on käyty.
 </p>
+
+<p>
+Huom. Audiossa on virhe. TUKES on ollut ennen turvatekniikankeskus. Nykyään se Tukes on turvallisuus- ja kemikaalivirasto.
+</p>
   
 <img src="assets/images/kurssin_tavoite_ja_rakenne.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
@@ -1213,7 +1217,7 @@ vaikka oireet näyttäisivät aluksi lieviltä. Sähköisku voi aiheuttaa myös 
     {
       id: "12",
       title: "12. Kurssin päätös ja todistus",
-      audioSrc: "assets/audio/10.mp3",
+      audioSrc: "assets/audio/12.mp3",
       contentHtml: `
         <div style="max-width:800px; margin:30px auto; font-family:Arial, sans-serif;">
 
