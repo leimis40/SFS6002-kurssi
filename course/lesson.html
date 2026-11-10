@@ -64,9 +64,13 @@
       // Content
       document.getElementById("content").innerHTML = lesson.contentHtml;
 
-      // Audio
+      // Audio: audioSrc ja mahdolliset extraAudioSrcs soitetaan peräkkäin samassa soittimessa
       const audio = document.getElementById("audio");
-      document.getElementById("audioSrc").src = lesson.audioSrc;
+      const audioSource = document.getElementById("audioSrc");
+      const audioHint = document.getElementById("audioHint");
+      const playlist = [lesson.audioSrc].concat(Array.isArray(lesson.extraAudioSrcs) ? lesson.extraAudioSrcs : []);
+      let trackIndex = 0;
+      audioSource.src = playlist[trackIndex];
       audio.load();
 
       // Estetään audion eteenpäin kelaaminen
@@ -129,6 +133,18 @@ nextBtn.style.opacity = "0.5";
 
   document.getElementById("progressText").textContent =
     `Eteneminen tässä selaimessa: ${getProgress(token)}/${total} valmista.`;
+  updateAudioHint();
+}
+
+// Moniosaisen audion tilateksti (yksiosaisilla sivuilla ei näytetä mitään)
+function updateAudioHint(note) {
+  if (playlist.length < 2) return;
+  const isLastTrack = trackIndex === playlist.length - 1;
+  let text = `Audio-osa ${trackIndex + 1}/${playlist.length}.`;
+  if (isLastTrack && audio.ended) text += " Kaikki audio-osat on kuunneltu.";
+  else if (!isLastTrack) text += " Seuraava osa alkaa automaattisesti, kun tämä päättyy.";
+  if (nextBtn.getAttribute("aria-disabled") === "true") text += " Seuraava sivu avautuu, kun kaikki osat on kuunneltu loppuun.";
+  audioHint.textContent = note ? `${text} ${note}` : text;
 }
 
       // If already completed this step earlier, unlock immediately
@@ -139,13 +155,31 @@ nextBtn.style.opacity = "0.5";
         nextBtn.addEventListener("click", (e) => {
   if (nextBtn.getAttribute("aria-disabled") === "true") {
     e.preventDefault();
-    alert("Seuraava avautuu, kun audio on kuunneltu loppuun.");
+    alert(playlist.length > 1
+      ? `Seuraava avautuu, kun kaikki ${playlist.length} audio-osaa on kuunneltu loppuun.`
+      : "Seuraava avautuu, kun audio on kuunneltu loppuun.");
   }
 });
       }
+updateAudioHint();
+
 audio.addEventListener("ended", () => {
+  if (trackIndex < playlist.length - 1) {
+    // Seuraava audio-osa samaan soittimeen; Seuraava-painike pysyy lukittuna
+    trackIndex++;
+    audioSource.src = playlist[trackIndex];
+    audio.load();
+    maxPlayedTime = 0; // kelauksen esto koskee myös uutta osaa
+    updateAudioHint();
+    audio.play().catch(() => updateAudioHint("Paina toistopainiketta jatkaaksesi."));
+    return;
+  }
   maxPlayedTime = audio.duration || maxPlayedTime;
   unlockNext();
+});
+
+audioSource.addEventListener("error", () => {
+  updateAudioHint("Audio-osan lataus epäonnistui. Lataa sivu uudelleen.");
 });
 
 document.addEventListener("keydown", (e) => {

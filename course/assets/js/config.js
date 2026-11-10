@@ -440,6 +440,8 @@ arvioitava ja työn turvallisuus varmistettava ennen työn aloittamista.</p>
       id: "04",
       title: "4. Sähkön vaarat ja suojautuminen",
       audioSrc: "assets/audio/04.mp3",
+      // Lisäaudiot soitetaan audioSrc:n jälkeen samassa soittimessa. Seuraava avautuu, kun kaikki on kuunneltu.
+      extraAudioSrcs: ["assets/audio/video1.mp3"],
       contentHtml: `
       <p><strong>Sähkö voi aiheuttaa vakavia vammoja tai kuoleman.</strong> 
 Sähkön vaarat liittyvät erityisesti sähköiskuun, palovammoihin sekä 
@@ -473,6 +475,50 @@ turvallisia työmenetelmiä.</p>
 
 <img src="assets/images/sahkon_vaarat_ja_suojautuminen.png" 
          style="width:100%; max-width:700px; margin:20px 0; border-radius:8px;">
+
+<!-- YouTube-video: käyttäjä käynnistää itse, ei vaikuta Seuraava-painikkeen lukitukseen -->
+<div style="margin:16px 0 8px 0;">
+  <h3 style="margin:0 0 6px 0; font-size:20px; line-height:1.3;">
+    Valokaarionnettomuuksista selviytyneiden kokemuksia
+  </h3>
+  <p style="margin:0 0 14px 0; font-size:14px; color:#666;">
+    Lähde: NIOSH / CDC – Arc Flash Awareness, alkuperäinen aineisto 2007
+  </p>
+
+  <p style="margin:0 0 14px 0; padding:10px 14px; background:#fffbea; border:1px solid #f5d76e; border-radius:10px;">
+    ⚠️ Video käsittelee vakavia työtapaturmia ja palovammoja.
+  </p>
+
+  <div style="margin:0 0 16px 0; padding:16px; background:#f8fbff; border:1px solid #d9e2f0; border-radius:10px;">
+    <p style="margin:0; font-weight:bold;">Laita suomenkielinen tekstitys päälle</p>
+    <ol style="margin:10px 0 0 22px; padding:0; line-height:1.6;">
+      <li>Käynnistä video.</li>
+      <li>Paina videon rataskuvaketta ⚙️.</li>
+      <li>Valitse <strong>Tekstitykset → Automaattinen käännös → Suomi</strong>.</li>
+    </ol>
+    <p style="margin:10px 0 0 0;">
+      Jos automaattinen käännös ei näy, valitse ensin englanninkielinen tekstitys ja avaa tekstitysvalikko uudelleen.
+    </p>
+    <p style="margin:10px 0 0 0; font-size:14px; color:#666;">
+      Tekstitys on konekäännös ja voi sisältää käännösvirheitä.
+    </p>
+  </div>
+
+  <div style="position:relative; width:100%; height:0; padding-bottom:56.25%; overflow:hidden; border-radius:10px; background:#000;">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/j-p5Y6BHtlo?cc_load_policy=1&amp;cc_lang_pref=fi&amp;hl=fi&amp;playsinline=1"
+      title="YouTube-video: Valokaarionnettomuuksista selviytyneiden kokemuksia"
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      loading="lazy"
+      allowfullscreen></iframe>
+  </div>
+
+  <p style="margin:10px 0 0 0;">
+    <a href="https://www.youtube.com/watch?v=j-p5Y6BHtlo" target="_blank" rel="noopener noreferrer" style="color:#1d4ed8; font-weight:600;">Avaa video YouTubessa</a>
+  </p>
+</div>
       
       
       `,
